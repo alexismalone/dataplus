@@ -1,0 +1,107 @@
+---
+title: "Image Analysis"
+author: "Alexis Malone"
+date: "July 23, 2018"
+output: html_document
+---
+
+```{r}
+#load libraries
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(ggpubr)
+```
+
+```{r}
+#load data
+image_data = read.csv("image_data.csv")
+```
+
+```{r}
+#create dataframe containing image data (and race)
+image_df = image_data %>%
+  
+  #create cut off for emotion data (0 or 1)
+  mutate(happiness = ifelse(happiness > .5, 1, 0),
+         contempt = ifelse(contempt > .5, 1, 0),
+         disgust = ifelse(disgust > .5, 1, 0),
+         neutral = ifelse(neutral > .5, 1, 0),
+         sadness = ifelse(sadness > .5, 1, 0),
+         surprise = ifelse(surprise > .5, 1, 0),
+         anger = ifelse(anger > .5, 1, 0),
+         fear = ifelse(fear > .5, 1, 0)) %>%
+  
+  #get rid of NAs
+  filter(!is.na(magazine)) %>%
+  filter(!is.na(RaceEthnicity)) %>%
+  
+  #create positive, negative, neutral emotion rows (based on given emotions)
+  mutate(negative = rowSums(.[,c("anger", "contempt", "disgust", "fear", "sadness")])) %>%
+  mutate(positive = rowSums(.[,c("happiness", "surprise")])) %>%
+  select(-anger, -contempt, -disgust, -fear, -sadness, -happiness, -surprise) %>%
+  select(gender, RaceEthnicity, neutral, negative, positive) %>%
+  mutate(negative = ifelse(negative == 1, "negative", ""), 
+         neutral = ifelse(neutral == 1, "neutral", ""),
+         positive = ifelse(positive == 1, "positive", "")) %>%
+  
+  #combine emotion rows into 1 row
+  mutate(emotion = paste(negative, neutral, positive)) %>%
+  mutate(emotion = trimws(emotion)) %>%
+  
+  #count emotion for each combination of race and gender
+  group_by(gender, RaceEthnicity, emotion) %>%
+  count(emotion) %>%
+  ungroup() %>%
+  
+  #count all faces within each gender
+  group_by(gender) %>%
+  mutate(total_gender = sum(n)) %>%
+  ungroup() %>%
+  
+  #find frequency of emotion within each race/gender combination
+  mutate(gender_frequency = n/total_gender)
+```
+
+```{r}
+
+#rename columns
+colnames(image_df) = c("gender", "race", "emotion", "n", "total_gender", "frequency")
+
+#change race factors (1, 2, 3, 4) into race names
+image_df$race[image_df$race == 1] <- "white"
+image_df$race[image_df$race == 2] <- "asian"
+image_df$race[image_df$race == 3] <- "hispanic"
+image_df$race[image_df$race == 4] <- "black"
+
+#change race and emotion into factors so that they can be organized in the graph
+image_df$race <- factor(image_df$race, levels=c("white", "black", "hispanic", "asian"))
+image_df$emotion <- factor(image_df$emotion, levels=c("positive", "neutral", "negative"))
+
+#create new rows for gender/race/emotion combinations that do not appear in magazines (to organize graph)
+new_rows = data.frame(gender = c("female", "female", "female", "female", "male", "male", "male", "male", "male"), race = c("asian", "asian", "hispanic", "black", "hispanic", "hispanic", "asian", "asian", "asian"), emotion = c("neutral", "negative", "negative", "negative", "positive", "negative", "positive", "neutral", "negative"), n = c(NA, NA, NA, NA, NA, NA, NA, NA, NA), total_gender = c(NA, NA, NA, NA, NA, NA, NA, NA, NA), frequency = c(NA, NA, NA, NA, NA, NA, NA, NA, NA))
+
+#bind new rows to race table
+image_df = rbind(image_df, new_rows)
+```
+
+```{r}
+
+#plot graph of race table
+ggplot(image_df, aes(x = emotion, y = frequency)) +
+  geom_bar(
+    aes(fill = race), stat = "identity", color = "white",
+    width = .7, position = position_dodge(width = 0.7)
+    ) +
+  facet_wrap(~gender) + 
+  scale_fill_discrete(guide = guide_legend(reverse=TRUE)) +
+  scale_fill_manual("legend", values = c("white" = "rosybrown1", "black" = "indianred4", "asian" = "indianred1", "hispanic" = "red")) +
+  ggtitle("Cover Model Emotions by Race and Gender") +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(), axis.line = element_line(colour = "gray20")) +
+  theme(plot.title = element_text(hjust = 0.5),
+        axis.text.y = element_text(size=10))
+
+```

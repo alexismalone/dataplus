@@ -1,0 +1,230 @@
+---
+title: "Sentiment Analysis"
+author: "Alexis Malone"
+date: "July 12, 2018"
+output: html_document
+---
+
+
+```{r}
+#load libraries
+library(dplyr)
+library(tibble)
+library(tidytext)
+library(ggplot2)
+library(tidyr)
+library(stringr)
+library(ggpubr)
+library(widyr)
+library(corpus)
+```
+
+```{r}
+#load data
+text_data = read.csv("text_data.csv")
+
+text_data = text_data %>%
+  mutate(text = as.character(text),
+         magazine = as.character(magazine))
+```
+
+```{r stemming}
+#function for stemming
+stem_hunspell <- function(term) {
+    # look up the term in the dictionary
+    stems <- hunspell::hunspell_stem(term)[[1]]
+
+    if (length(stems) == 0) { # if there are no stems, use the original term
+        stem <- term
+    } else { # if there are multiple stems, use the last one
+        stem <- stems[[length(stems)]]
+    }
+
+    stem
+}
+```
+
+```{r}
+#remove pronouns/gendered words from stopwords (for gender sentiment analysis)
+stopwords = stop_words %>%
+  filter(word != "him") %>%
+  filter(word != "himself") %>%
+  filter(word != "his") %>%
+  filter(word != "her") %>%
+  filter(word != "hers") %>%
+  filter(word != "herself") %>%
+  filter(word != "man") %>%
+  filter(word != "men") %>%
+  filter(word != "he") %>%
+  filter(word != "she")
+
+#create clean tokenized word dataframe
+words = text_data %>%
+  mutate(date = zoo::as.yearmon(paste(year, month), "%Y %m")) %>%
+  mutate(issue = paste0(magazine, " ", date)) %>%
+  mutate(issue_line = paste0(line, " ", issue)) %>%
+  unnest_tokens(word, text) %>%
+  mutate(word = gsub('[[:punct:] ]+','', word)) %>%
+  filter(word != "s") %>%
+  filter(is.na(as.numeric(word))) %>%
+  filter(word != "gh") %>%
+  filter(word != "essence") %>%
+  filter(word != "esquire") %>%
+  filter(word != "cosmo") %>%
+  anti_join(stopwords) %>%
+  mutate(word = text_tokens(word, stemmer = stem_hunspell)) %>%
+  mutate(word = as.character(word)) %>%
+  mutate(word = gsub("^h$", "he", word))
+
+#fix some stemmed words
+words$word[words$word == "ab"] <- "abs"
+words$word[words$word == "supp"] <- "supper"
+words$word[words$word == "b"] <- "bed"
+words$word[words$word == "america"] <- "american"
+
+```
+
+```{r}
+#read our sentiment dictionary into R
+gender_sentiments = read.csv("gender_sentiments.csv")
+
+#create male/female sentiments in dictionary for gendered words
+new_rows = data.frame(word = c("him","himself", "his", "man", "men", "he", "her", "herself", "hers", "woman", "women", "she", "boy", "girl", "boyfriend", "girlfriend", "girls", "boys", "guy", "guys"), sentiment = c("male", "male", "male", "male", "male", "male", "female", "female","female","female","female","female","male", "female", "male", "female", "female", "male", "male", "male"))
+
+#bind dictionaries
+gender_sentiments = rbind(gender_sentiments, new_rows)
+
+#join gendered sentiment and tokenized words
+gender_sentiment_words = words %>%
+  inner_join(gender_sentiments)
+```
+
+```{r}
+
+#create graphs for word contribution to sentiment
+gender_sentiment_words %>%
+  group_by(sentiment) %>%
+  count(word, sentiment, sort = TRUE) %>%
+  top_n(5) %>%
+  ungroup() %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(word, n, fill = sentiment)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~sentiment, scales = "free_y") +
+  labs(y = "Contribution to sentiment",
+       x = NULL) +
+  coord_flip()
+
+```
+
+```{r}
+
+#graph of magazine breakdown by sentiments
+gender_sentiment_words %>%
+  group_by(sentiment) %>%
+  count(magazine, sentiment, sort = TRUE) %>%
+  ungroup() %>%
+  #mutate(sentiment = reorder(sentiment, n)) %>%
+  ggplot(aes(reorder(sentiment, n), n, fill = magazine)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~magazine, scales = "free_y") +
+  labs(y = "Sentiment Frequencies WITHIN Magazines",
+       x = NULL) +
+  coord_flip()
+
+#graph of sentiment breakdown by magazine
+gender_sentiment_words %>%
+  group_by(sentiment) %>%
+  count(magazine, sentiment, sort = TRUE) %>%
+  ungroup() %>%
+  mutate(magazine = reorder(magazine, n)) %>%
+  ggplot(aes(magazine, n, fill = sentiment)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~sentiment, scales = "free_y") +
+  labs(y = "Sentiment Frequencies ACROSS Magazines",
+       x = NULL) +
+  coord_flip()
+
+```
+
+Gender sentiment correlation
+```{r}
+#find word correlations within lines
+word_cors_per_line = words %>%
+  group_by(word) %>%
+  filter(n() >= 10) %>%
+  pairwise_cor(word, issue_line, sort = TRUE)
+```
+
+
+```{r}
+#create dataframe for words most correlated with a word of choice (beauty in this case), and their sentiments
+
+#create correlation dataframe
+cor = word_cors_per_line %>%
+  
+  #input word of choice
+  filter(item1 %in% c("beauty")) %>%
+  
+  top_n(20) %>%
+  group_by(item1) %>%
+  inner_join(gender_sentiments, by = c("item2" = "word")) %>%
+  ungroup()
+
+#combine rows for words with multiple sentiments
+cor = aggregate(data=cor,sentiment~item2 + correlation + item1,FUN=paste)
+
+#turn sentiment vector into character string
+for (i in 1:nrow(cor)){
+  cor[i, "sentiment"] = paste(as.character(cor[[i, "sentiment"]]), collapse=", ")
+}
+
+#order by correlation
+cor = cor %>%
+  mutate(sentiment = as.character(sentiment)) %>%
+  mutate(item2 = reorder(item2, correlation))
+
+#create color column (for graph) to specify columns with money sentiment
+cor = cor %>% mutate(color = ifelse(grepl("money", sentiment) == TRUE, "money", "other"))
+
+#plot correlation between beauty and other words, with certain bar color for money sentiment
+ggplot(cor, aes(item2, correlation, fill = color)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual("legend", values = c("money" = "skyblue1", "other" = "gray60")) +
+  geom_text(aes(label=sentiment, colour = "white"), hjust = 1.05) +
+  scale_colour_manual(values = c("black")) +
+  #facet_wrap(~ item1, scales = "free") +
+  theme_bw() +
+  theme(panel.border = element_blank(), panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(), axis.line = element_line(colour = "gray20")) +
+  ggtitle(paste0("Words correlated with ", "'", str_to_title(cor[1, "item1"]), "'")) +
+  theme(plot.title = element_text(hjust = 0.5),
+        axis.text.y = element_text(size=10),
+        legend.position="none") +
+  xlab(NULL) +
+  coord_flip() + 
+  xlab("word")
+```
+
+
+
+```{r}
+#frequency per year
+sentiment_frequencies = gender_sentiment_words %>%
+  filter(sentiment %in% c("male", "female")) %>%
+  filter(magazine == "Cosmopolitan") %>%
+  group_by(sentiment, magazine, year) %>%
+  count() %>%
+  ungroup() %>%
+  #group_by(year) %>%
+  mutate(frequency = n/sum(n))
+
+#plot of frequency per year
+ggplot(sentiment_frequencies, aes(year, frequency, colour = sentiment)) +
+  geom_point() +
+  geom_line() +
+  ggtitle("Male and Female Sentiments")+
+  theme(plot.title = element_text(hjust = 0.5)) +
+  ylab("frequency")
+```
+

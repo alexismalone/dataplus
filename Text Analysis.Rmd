@@ -1,0 +1,313 @@
+---
+title: "Text Analysis"
+author: "Alexis Malone"
+date: "July 31, 2018"
+output: html_document
+---
+
+```{r packages}
+#Load packages
+library(dplyr)
+library(tibble)
+library(tidytext)
+library(ggplot2)
+library(tidyr)
+library(widyr)
+library(ggpubr)
+library(corpus)
+library(stringr)
+```
+
+```{r}
+#load data
+text_data = read.csv("text_data.csv")
+
+text_data = text_data %>%
+  mutate(text = as.character(text),
+         magazine = as.character(magazine))
+
+```
+
+```{r stemming}
+#function for stemming
+stem_hunspell <- function(term) {
+    # look up the term in the dictionary
+    stems <- hunspell::hunspell_stem(term)[[1]]
+
+    if (length(stems) == 0) { # if there are no stems, use the original term
+        stem <- term
+    } else { # if there are multiple stems, use the last one
+        stem <- stems[[length(stems)]]
+    }
+
+    stem
+}
+```
+
+```{r data}
+#tokenized words from magazines
+
+words = text_data %>%
+  mutate(date = zoo::as.yearmon(paste(year, month), "%Y %m")) %>%
+  mutate(issue = paste0(magazine, " ", date)) %>%
+  mutate(issue_line = paste0(line, " ", issue)) %>%
+  unnest_tokens(word, text) %>%
+  mutate(word = gsub('[[:punct:] ]+','', word)) %>%
+  filter(word != "s") %>%
+  filter(is.na(as.numeric(word))) %>%
+  filter(word != "gh") %>%
+  filter(word != "essence") %>%
+  filter(word != "esquire") %>%
+  filter(word != "cosmo") %>%
+  anti_join(stop_words) %>%
+  mutate(word = text_tokens(word, stemmer = stem_hunspell)) %>%
+  mutate(word = as.character(word)) %>%
+  mutate(word = gsub("^h$", "he", word))
+
+words$word[words$word == "ab"] <- "abs"
+words$word[words$word == "supp"] <- "supper"
+words$word[words$word == "b"] <- "bed"
+words$word[words$word == "america"] <- "american"
+```
+
+```{r frequencies}
+#word frequency per year
+money_df = words %>%
+  filter(word %in% c("money")) %>%
+  group_by(magazine, year) %>%
+  count()
+
+#money overtime
+ggplot(money_df, aes(year, n, colour = magazine)) +
+  geom_point() +
+  geom_line() +
+  ggtitle("Money mentions over time") +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  ylab("frequency")
+
+```
+
+```{r bigram}
+#find bigrams
+bigram =  text_data %>%
+  unnest_tokens(bigram, text, token = "ngrams", n = 2) %>%   
+  na.omit()
+
+#seperate bigram column into 2 columns
+bigrams_separated <- bigram %>%
+  separate(bigram, c("word1", "word2"), sep = " ")
+
+#filter stopwords
+bigrams_filtered <- bigrams_separated %>%
+  filter(!word1 %in% stop_words$word) %>%
+  filter(!word2 %in% stop_words$word)
+
+#reunite bigram words (stopwords filtered)
+bigrams_united <- bigrams_filtered %>%
+  unite(bigram, word1, word2, sep = " ")
+
+#bigram tf-idf
+bigram_tf_idf <- bigrams_united %>%
+  count(magazine, bigram) %>%
+  bind_tf_idf(bigram, magazine, n) %>%
+  group_by(magazine) %>%
+  arrange(desc(tf_idf)) %>%
+  top_n(5)
+
+#bigram graphs
+ggplot(bigram_tf_idf, aes(x = reorder(bigram, tf_idf), tf_idf, fill = magazine)) +
+  geom_col(show.legend = FALSE) +
+  labs(x = NULL, y = "tf-idf") +
+  facet_wrap(~magazine, ncol = 2, scales = "free") +
+  coord_flip()
+```
+
+```{r trigrams}
+
+#find trigrams
+trigram = text_data %>%
+  unnest_tokens(trigram, text, token = "ngrams", n = 3) %>%
+  na.omit() 
+
+#seperate trigram column into 1 column per word
+trigram_separated <- trigram %>%
+  separate(trigram, c("word1", "word2", "word3"), sep = " ")
+
+#filter stop words
+trigram_filtered <- trigram_separated %>%
+  filter(!word1 %in% stop_words$word) %>%
+  filter(!word2 %in% stop_words$word) %>%
+  filter(!word3 %in% stop_words$word)
+
+#reunite trigram columns
+trigram_united <- trigram_filtered %>%
+  unite(trigram, word1, word2, word3, sep = " ")
+
+#trigram tf-idf
+trigram_tf_idf <- trigram %>%
+  count(magazine, trigram) %>%
+  bind_tf_idf(trigram, magazine, n) %>%
+  group_by(magazine) %>%
+  arrange(desc(tf_idf)) %>%
+  top_n(5)
+
+#graph of trigram tf-idf
+ggplot(trigram_tf_idf, aes(x = reorder(trigram, tf_idf), tf_idf, fill = magazine)) +
+  geom_col(show.legend = FALSE) +
+  labs(x = NULL, y = "tf-idf") +
+  facet_wrap(~magazine, ncol = 2, scales = "free") +
+  coord_flip()
+
+```
+
+```{r nrc sentiment}
+#load nrc sentiment library
+nrc = get_sentiments("nrc")
+
+#join sentiment library with our words
+word_sentiments_nrc = words %>%
+  inner_join(nrc)
+
+#graph showing top words contributing to NRC sentiments in Essence
+#"black" is negative; sentiment library not necessarily helpful for our purposes
+word_sentiments_nrc %>%
+  filter(sentiment %in% c("negative", "positive")) %>%
+  filter(magazine == "Essence") %>%
+  count(magazine, word, sentiment, sort = TRUE) %>%
+  top_n(9) %>%
+  ggplot(aes(x = reorder(word, n), y = n, fill = sentiment)) +
+  geom_bar(stat = "identity") +
+  theme(legend.position = c(0.8, 0.3)) +
+  facet_wrap(~magazine, scales = "free_y") +
+  labs(y = "Contribution to sentiment", x = NULL) +
+  coord_flip()
+
+```
+
+```{r bing sentiment}
+#load bing sentiment library
+bing = get_sentiments("bing")
+
+#join sentiment library with our words
+word_sentiments_bing = words %>%
+  inner_join(bing)
+
+#graph showing top words contributing to bing sentiments in Cosmopolitan
+#again, sentiment library not necessarily helpful for our purposes
+word_sentiments_bing %>%
+  count(magazine, word, sentiment, sort = TRUE) %>%
+  group_by(magazine) %>%
+  top_n(9) %>%
+  ungroup() %>%
+  filter(magazine == "Cosmopolitan") %>%
+  ggplot(aes(x = reorder(word, n), y = n, fill = sentiment)) +
+  geom_bar(stat = "identity") +
+  theme(legend.position = c(0.8, 0.3)) +
+  facet_wrap(~magazine, scales = "free_y") +
+  labs(y = "Contribution to sentiment",
+       x = NULL) +
+  coord_flip()
+```
+
+```{r sentiment dictionary}
+#create our own sentiment dictionary using top words
+relevant_words = words %>%
+  group_by(word) %>%
+  count() %>%
+  filter(n >= 10) %>%
+  arrange(desc(n))
+
+#write.csv(relevant_words, "word_freq_over_10.csv", row.names = FALSE)
+```
+
+```{r tf-idf}
+#plot tf-idf top words for each magazine
+magazine_tfidf = words %>%
+  count(magazine, word, sort = TRUE) %>%
+  bind_tf_idf(word, magazine, n) %>%
+  arrange(desc(tf_idf)) 
+
+words %>%
+  count(magazine, word, sort = TRUE) %>%
+  bind_tf_idf(word, magazine, n) %>%
+  arrange(desc(tf_idf)) %>%
+  mutate(word = factor(word, levels = rev(unique(word)))) %>% 
+  group_by(magazine) %>% 
+  mutate(word = reorder(word, tf_idf)) %>%
+  top_n(5) %>%
+  ggplot(aes(word, tf_idf, fill = magazine)) +
+  geom_col(show.legend = FALSE) +
+  labs(x = NULL, y = "tf-idf") +
+  ggtitle("Top Words in Magazines") +
+  theme(axis.text.y = element_text(size=10),
+        plot.title = element_text(hjust = 0.5)) +
+  facet_wrap(~magazine, ncol = 2, scales = "free") +
+  coord_flip()
+
+```
+
+```{r wordcloud}
+library(wordcloud)
+
+#simple word cloud
+wordcloud = words %>%
+  count(word) %>%
+  with(wordcloud(word, n, max.words = 100))
+
+#most frequent words across magazines
+topwords = magazine_tfidf %>%
+  group_by(magazine) %>%
+  top_n(15) 
+
+topwords = as.vector(topwords[["word"]])
+
+#prep dataframe for wordcloud
+tdm_prep = text_data %>%
+  unnest_tokens(word, text) %>%
+  mutate(word = gsub('[[:punct:] ]+','', word)) %>%
+  filter(word != "s") %>%
+  filter(is.na(as.numeric(word))) %>%
+  filter(word != "gh") %>%
+  filter(word != "essence") %>%
+  filter(word != "esquire") %>%
+  filter(word != "cosmo") %>%
+  anti_join(stopwords) %>%
+  mutate(word = text_tokens(word, stemmer = stem_hunspell)) %>%
+  mutate(word = as.character(word)) %>%
+  select(magazine, word) %>%
+  filter(word %in% topwords) %>%
+  count(magazine, word, sort = T) %>%
+  ungroup()
+
+#prep a second dataframe (only women's magazines) for wordcloud
+#tdm_prep2 = women_magazines %>%
+#  unnest_tokens(word, text) %>%
+#  anti_join(stop_words) %>%
+#  select(magazine, word) %>%
+#  count(magazine, word, sort = T) %>%
+#  ungroup()
+
+x = cast_tdm(tdm_prep, word, magazine, n)
+#y = cast_tdm(tdm_prep2, word, magazine, n)
+
+
+matrix = as.matrix(x)
+#matrix2 = as.matrix(y)
+
+comparison.cloud(matrix, random.order=FALSE, 
+colors = c("deep pink", "mediumorchid4", "firebrick3", "hotpink", "black"),
+title.size=.01, max.words=200)
+
+#comparison.cloud(matrix2, random.order=FALSE, 
+#colors = c("#00B2FF", "red", "#088A29", "#6600CC", "#FF8000"),
+#title.size=1.5, max.words=200)
+
+#words that appear in all documents
+#commonality.cloud(matrix, random.order=FALSE, 
+#colors = brewer.pal(8, "Dark2"))
+#
+#commonality.cloud(matrix2, random.order=FALSE, 
+#colors = brewer.pal(8, "Dark2"))
+```
+
+
