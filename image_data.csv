@@ -1,0 +1,612 @@
+magazine,month,year,date,issue,smile,gender,age,moustache,beard,sideburns,anger,contempt,disgust,fear,happiness,neutral,sadness,surprise,eyeMakeup,lipMakeup,file_name,RaceEthnicity,HairLength
+cosmopolitan,1,2010,Jan-10,cosmopolitan Jan 2010,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_01_2010,1,3
+cosmopolitan,1,2011,Jan-11,cosmopolitan Jan 2011,0,female,28,0,0,0,0,0,0,0,0,0.997,0.001,0.001,TRUE,TRUE,C_01_2011,1,4
+cosmopolitan,1,2012,Jan-12,cosmopolitan Jan 2012,0.998,female,28,0,0,0,0,0.001,0,0,0.998,0.001,0,0,TRUE,TRUE,C_01_2012,1,3
+cosmopolitan,1,2013,Jan-13,cosmopolitan Jan 2013,0.96,female,27,0,0,0,0,0.003,0,0,0.96,0.037,0,0,TRUE,TRUE,C_01_2013,1,4
+cosmopolitan,1,2014,Jan-14,cosmopolitan Jan 2014,1,female,25,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_01_2014,1,4
+cosmopolitan,1,2015,Jan-15,cosmopolitan Jan 2015,1,female,36,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_01_2015,1,4
+cosmopolitan,1,2016,Jan-16,cosmopolitan Jan 2016,0.956,female,27,0,0,0,0,0.002,0,0,0.956,0.043,0,0,TRUE,TRUE,C_01_2016,1,3
+cosmopolitan,1,2016,Jan-16,cosmopolitan Jan 2016,0.946,male,36,0.1,0.1,0.1,0,0.015,0,0,0.946,0.038,0,0,FALSE,FALSE,C_01_2016,1,3
+cosmopolitan,1,2017,Jan-17,cosmopolitan Jan 2017,0.998,female,28,0,0,0,0,0,0,0,0.998,0.002,0,0,TRUE,TRUE,C_01_2017,1,3
+cosmopolitan,1,2018,Jan-18,cosmopolitan Jan 2018,0,female,32,0,0,0,0.999,0,0.001,0,0,0,0,0,TRUE,TRUE,C_01_2018,1,2
+cosmopolitan,2,2010,Feb-10,cosmopolitan Feb 2010,0.999,female,30,0,0,0,0,0,0,0,0.999,0,0,0,TRUE,TRUE,C_02_2010,1,4
+cosmopolitan,2,2011,Feb-11,cosmopolitan Feb 2011,0,female,28,0,0,0,0,0,0,0,0,1,0,0,TRUE,TRUE,C_02_2011,1,4
+cosmopolitan,2,2012,Feb-12,cosmopolitan Feb 2012,0.174,female,27,0,0,0,0,0.001,0,0,0.174,0.826,0,0,TRUE,TRUE,C_02_2012,1,4
+cosmopolitan,2,2013,Feb-13,cosmopolitan Feb 2013,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_02_2013,1,2
+cosmopolitan,2,2014,Feb-14,cosmopolitan Feb 2014,0.979,female,24,0,0,0,0,0,0,0,0.979,0.021,0,0,TRUE,TRUE,C_02_2014,1,4
+cosmopolitan,2,2015,Feb-15,cosmopolitan Feb 2015,0.082,female,29,0,0,0,0,0.001,0,0,0.082,0.917,0,0,TRUE,TRUE,C_02_2015,1,4
+cosmopolitan,2,2016,Feb-16,cosmopolitan Feb 2016,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_02_2016,1,3
+cosmopolitan,2,2017,Feb-17,cosmopolitan Feb 2017,0.032,female,31,0,0,0,0,0.001,0,0,0.032,0.785,0.004,0.177,TRUE,TRUE,C_02_2017,1,4
+cosmopolitan,2,2018,Feb-18,cosmopolitan Feb 2018,0,female,29,0,0,0,0,0,0,0.001,0,0.927,0.002,0.07,TRUE,TRUE,C_02_2018,3,3
+cosmopolitan,3,2010,Mar-10,cosmopolitan Mar 2010,0.087,female,28,0,0,0,0,0,0,0,0.087,0.913,0,0,TRUE,TRUE,C_03_2010,1,4
+cosmopolitan,3,2011,Mar-11,cosmopolitan Mar 2011,0.503,female,30,0,0,0,0,0,0,0,0.503,0.497,0,0,TRUE,TRUE,C_03_2011,1,4
+cosmopolitan,3,2012,Mar-12,cosmopolitan Mar 2012,0,female,24,0,0,0,0,0,0,0,0,1,0,0,TRUE,TRUE,C_03_2012,3,4
+cosmopolitan,3,2013,Mar-13,cosmopolitan Mar 2013,0,female,24,0,0,0,0,0.001,0.002,0,0,0.952,0.043,0.002,TRUE,TRUE,C_03_2013,1,2
+cosmopolitan,3,2014,Mar-14,cosmopolitan Mar 2014,0.995,female,25,0,0,0,0,0.002,0,0,0.995,0.003,0,0,TRUE,TRUE,C_03_2014,1,4
+cosmopolitan,3,2015,Mar-15,cosmopolitan Mar 2015,0.843,female,29,0,0,0,0,0.018,0,0,0.843,0.139,0,0,TRUE,TRUE,C_03_2015,1,3
+cosmopolitan,3,2016,Mar-16,cosmopolitan Mar 2016,0.013,female,28,0,0,0,0,0,0,0,0.013,0.986,0,0,TRUE,TRUE,C_03_2016,3,3
+cosmopolitan,3,2017,Mar-17,cosmopolitan Mar 2017,0,female,27,0,0,0,0,0,0,0,0,0.999,0,0,TRUE,TRUE,C_03_2017,1,2
+cosmopolitan,3,2018,Mar-18,cosmopolitan Mar 2018,0.002,female,31,0,0,0,0,0,0,0,0.002,0.998,0,0,TRUE,TRUE,C_03_2018,1,3
+cosmopolitan,4,2010,Apr-10,cosmopolitan Apr 2010,0.006,female,32,0,0,0,0,0,0,0,0.006,0.989,0.003,0.001,TRUE,TRUE,C_04_2010,1,3
+cosmopolitan,4,2011,Apr-11,cosmopolitan Apr 2011,0.398,female,28,0,0,0,0,0,0,0,0.398,0.601,0,0.001,TRUE,TRUE,C_04_2011,1,3
+cosmopolitan,4,2012,Apr-12,cosmopolitan Apr 2012,0.003,female,31,0,0,0,0,0,0,0,0.003,0.996,0.001,0,TRUE,TRUE,C_04_2012,1,4
+cosmopolitan,4,2013,Apr-13,cosmopolitan Apr 2013,0.115,female,27,0,0,0,0,0,0,0,0.115,0.884,0,0,TRUE,TRUE,C_04_2013,1,4
+cosmopolitan,4,2014,Apr-14,cosmopolitan Apr 2014,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_04_2014,1,3
+cosmopolitan,4,2015,Apr-15,cosmopolitan Apr 2015,0.996,female,32,0,0,0,0,0,0,0,0.996,0,0,0.004,TRUE,TRUE,C_04_2015,1,4
+cosmopolitan,4,2016,Apr-16,cosmopolitan Apr 2016,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_04_2016,1,2
+cosmopolitan,4,2017,Apr-17,cosmopolitan Apr 2017,0.015,female,21,0,0,0,0,0.001,0,0,0.015,0.978,0.003,0.002,TRUE,TRUE,C_04_2017,1,4
+cosmopolitan,4,2018,Apr-18,cosmopolitan Apr 2018,0,female,29,0,0,0,0,0.001,0,0,0,0.964,0.008,0.027,TRUE,TRUE,C_04_2018,4,3
+cosmopolitan,5,2010,May-10,cosmopolitan May 2010,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_05_2010,1,3
+cosmopolitan,5,2011,May-11,cosmopolitan May 2011,0.001,female,29,0,0,0,0,0,0,0,0.001,0.997,0.002,0,TRUE,TRUE,C_05_2011,1,3
+cosmopolitan,5,2012,May-12,cosmopolitan May 2012,0.654,female,32,0,0,0,0,0.001,0,0,0.654,0.345,0,0,TRUE,TRUE,C_05_2012,1,4
+cosmopolitan,5,2013,May-13,cosmopolitan May 2013,0.693,female,27,0,0,0,0,0,0,0,0.693,0.306,0,0,TRUE,TRUE,C_05_2013,1,4
+cosmopolitan,5,2014,May-14,cosmopolitan May 2014,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_05_2014,1,4
+cosmopolitan,5,2016,May-16,cosmopolitan May 2016,0,female,24,0,0,0,0,0,0,0,0,0.985,0.001,0.014,TRUE,TRUE,C_05_2016,1,2
+cosmopolitan,5,2017,May-17,cosmopolitan May 2017,0.266,female,24,0,0,0,0,0,0,0,0.266,0.734,0,0,TRUE,TRUE,C_05_2017,1,4
+cosmopolitan,5,2018,May-18,cosmopolitan May 2018,0,female,30,0,0,0,0,0.001,0,0,0,0.918,0.005,0.076,TRUE,TRUE,C_05_2018,1,4
+cosmopolitan,6,2010,Jun-10,cosmopolitan Jun 2010,0.002,female,34,0,0,0,0,0.001,0,0,0.002,0.995,0.002,0,TRUE,TRUE,C_06_2010,1,2
+cosmopolitan,6,2011,Jun-11,cosmopolitan Jun 2011,0.518,female,32,0,0,0,0,0.004,0,0,0.518,0.478,0,0,TRUE,TRUE,C_06_2011,1,4
+cosmopolitan,6,2012,Jun-12,cosmopolitan Jun 2012,0.025,female,27,0,0,0,0,0.003,0,0,0.025,0.972,0,0,TRUE,TRUE,C_06_2012,1,2
+cosmopolitan,6,2013,Jun-13,cosmopolitan Jun 2013,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_06_2013,3,4
+cosmopolitan,6,2014,Jun-14,cosmopolitan Jun 2014,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_06_2014,1,3
+cosmopolitan,6,2015,Jun-15,cosmopolitan Jun 2015,0.086,female,30,0,0,0,0,0,0,0,0.086,0.822,0,0.091,TRUE,TRUE,C_06_2015,1,4
+cosmopolitan,6,2016,Jun-16,cosmopolitan Jun 2016,0.76,female,28,0,0,0,0,0,0,0,0.76,0.042,0,0.198,TRUE,TRUE,C_06_2016,4,4
+cosmopolitan,6,2017,Jun-17,cosmopolitan Jun 2017,0.003,female,26,0,0,0,0,0.001,0,0,0.003,0.994,0.002,0,TRUE,TRUE,C_06_2017,1,4
+cosmopolitan,6,2018,Jun-18,cosmopolitan Jun 2018,0.001,female,27,0,0,0,0,0.002,0,0.001,0.001,0.928,0.067,0.001,TRUE,TRUE,C_06_2018,1,4
+cosmopolitan,7,2010,Jul-10,cosmopolitan Jul 2010,0.666,female,29,0,0,0,0,0.002,0,0,0.666,0.332,0,0,TRUE,TRUE,C_07_2010,3,4
+cosmopolitan,7,2011,Jul-11,cosmopolitan Jul 2011,0.027,female,22,0,0,0,0,0.003,0,0,0.027,0.969,0,0,TRUE,TRUE,C_07_2011,4,4
+cosmopolitan,7,2012,Jul-12,cosmopolitan Jul 2012,1,female,25,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_07_2012,3,4
+cosmopolitan,7,2013,Jul-13,cosmopolitan Jul 2013,1,female,25,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_07_2013,1,2
+cosmopolitan,7,2014,Jul-14,cosmopolitan Jul 2014,0,female,26,0,0,0,0.007,0,0,0,0,0.993,0,0,TRUE,TRUE,C_07_2014,1,2
+cosmopolitan,7,2015,Jul-15,cosmopolitan Jul 2015,0.019,female,28,0,0,0,0,0.001,0,0,0.019,0.979,0.001,0,TRUE,TRUE,C_07_2015,4,4
+cosmopolitan,7,2016,Jul-16,cosmopolitan Jul 2016,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_07_2016,4,4
+cosmopolitan,7,2017,Jul-17,cosmopolitan Jul 2017,0.001,female,26,0,0,0,0,0.013,0,0,0.001,0.982,0.002,0.001,TRUE,TRUE,C_07_2017,1,2
+cosmopolitan,7,2018,Jul-18,cosmopolitan Jul 2018,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_07_2018,NA,NA
+cosmopolitan,8,2010,Aug-10,cosmopolitan Aug 2010,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_08_2010,1,4
+cosmopolitan,8,2011,Aug-11,cosmopolitan Aug 2011,0.317,female,32,0,0,0,0,0,0,0,0.317,0.683,0,0,TRUE,TRUE,C_08_2011,1,4
+cosmopolitan,8,2012,Aug-12,cosmopolitan Aug 2012,0.125,female,30,0,0,0,0,0.009,0,0,0.125,0.866,0,0,TRUE,TRUE,C_08_2012,1,4
+cosmopolitan,8,2013,Aug-13,cosmopolitan Aug 2013,0,female,25,0,0,0,0,0,0,0,0,0.999,0.001,0,TRUE,TRUE,C_08_2013,3,3
+cosmopolitan,8,2014,Aug-14,cosmopolitan Aug 2014,0.001,female,29,0,0,0,0,0,0,0,0.001,0.993,0.001,0.005,TRUE,TRUE,C_08_2014,1,3
+cosmopolitan,8,2015,Aug-15,cosmopolitan Aug 2015,0.247,female,41,0,0,0,0,0.002,0.001,0,0.247,0.743,0.007,0,TRUE,TRUE,C_08_2015,1,4
+cosmopolitan,8,2016,Aug-16,cosmopolitan Aug 2016,0.059,female,30,0,0,0,0,0,0,0,0.059,0.941,0,0,TRUE,TRUE,C_08_2016,1,4
+cosmopolitan,8,2017,Aug-17,cosmopolitan Aug 2017,0.994,female,29,0,0,0,0,0.004,0,0,0.994,0.002,0,0,TRUE,TRUE,C_08_2017,1,4
+cosmopolitan,9,2010,Sep-10,cosmopolitan Sep 2010,1,female,24,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_09_2010,3,4
+cosmopolitan,9,2011,Sep-11,cosmopolitan Sep 2011,0.91,female,25,0,0,0,0,0,0,0,0.91,0.089,0,0,TRUE,TRUE,C_09_2011,1,2
+cosmopolitan,9,2012,Sep-12,cosmopolitan Sep 2012,0,female,25,0,0,0,0,0,0,0,0,0.999,0,0.001,TRUE,TRUE,C_09_2012,1,3
+cosmopolitan,9,2013,Sep-13,cosmopolitan Sep 2013,0.41,female,29,0,0,0,0,0.001,0,0,0.41,0.59,0,0,TRUE,TRUE,C_09_2013,1,4
+cosmopolitan,9,2014,Sep-14,cosmopolitan Sep 2014,0.01,female,25,0,0,0,0,0,0,0,0.01,0.989,0,0,TRUE,TRUE,C_09_2014,1,3
+cosmopolitan,9,2015,Sep-15,cosmopolitan Sep 2015,0.001,female,28,0,0,0,0,0,0,0,0.001,0.997,0.001,0.001,TRUE,TRUE,C_09_2015,3,2
+cosmopolitan,9,2016,Sep-16,cosmopolitan Sep 2016,1,female,24,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_09_2016,1,4
+cosmopolitan,9,2017,Sep-17,cosmopolitan Sep 2017,0.993,female,31,0,0,0,0,0,0,0,0.993,0.005,0,0.001,TRUE,TRUE,C_09_2017,1,4
+cosmopolitan,10,2010,Oct-10,cosmopolitan Oct 2010,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_10_2010,1,4
+cosmopolitan,10,2011,Oct-11,cosmopolitan Oct 2011,0.743,female,29,0,0,0,0,0,0,0,0.743,0.256,0,0,TRUE,TRUE,C_10_2011,1,4
+cosmopolitan,10,2012,Oct-12,cosmopolitan Oct 2012,0.238,female,25,0,0,0,0,0.002,0,0,0.238,0.759,0.001,0,TRUE,TRUE,C_10_2012,1,4
+cosmopolitan,10,2013,Oct-13,cosmopolitan Oct 2013,0.94,female,29,0,0,0,0,0.002,0,0,0.94,0.058,0,0,TRUE,TRUE,C_10_2013,3,3
+cosmopolitan,10,2014,Oct-14,cosmopolitan Oct 2014,0.839,female,29,0,0,0,0,0,0,0,0.839,0.157,0,0.003,TRUE,TRUE,C_10_2014,1,4
+cosmopolitan,10,2015,Oct-15,cosmopolitan Oct 2015,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_10_2015,1,4
+cosmopolitan,10,2016,Oct-16,cosmopolitan Oct 2016,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_10_2016,1,4
+cosmopolitan,10,2017,Oct-17,cosmopolitan Oct 2017,0.561,female,35,0,0,0,0,0,0,0,0.561,0.438,0,0,TRUE,TRUE,C_10_2017,1,4
+cosmopolitan,11,2010,Nov-10,cosmopolitan Nov 2010,0.932,female,27,0,0,0,0,0.034,0,0,0.932,0.033,0,0,TRUE,TRUE,C_11_2010,1,4
+cosmopolitan,11,2011,Nov-11,cosmopolitan Nov 2011,0.009,female,23,0,0,0,0,0.011,0,0,0.009,0.977,0.003,0,TRUE,TRUE,C_11_2011,4,2
+cosmopolitan,11,2012,Nov-12,cosmopolitan Nov 2012,0.003,female,27,0,0,0,0,0,0,0,0.003,0.997,0,0,TRUE,TRUE,C_11_2012,1,4
+cosmopolitan,11,2013,Nov-13,cosmopolitan Nov 2013,0.087,female,25,0,0,0,0,0,0,0,0.087,0.912,0,0,TRUE,TRUE,C_11_2013,1,4
+cosmopolitan,11,2014,Nov-14,cosmopolitan Nov 2014,0.752,female,30,0,0,0,0,0.002,0,0,0.752,0.246,0,0,TRUE,TRUE,C_11_2014,1,4
+cosmopolitan,11,2015,Nov-15,cosmopolitan Nov 2015,0,female,28,0,0,0,0,0,0,0,0,1,0,0,TRUE,TRUE,C_11_2015,NA,NA
+cosmopolitan,11,2015,Nov-15,cosmopolitan Nov 2015,0.664,female,30,0,0,0,0,0,0,0,0.664,0.336,0,0,TRUE,TRUE,C_11_2015,NA,NA
+cosmopolitan,11,2015,Nov-15,cosmopolitan Nov 2015,0,female,30,0,0,0,0,0,0,0,0,1,0,0,TRUE,TRUE,C_11_2015,NA,NA
+cosmopolitan,11,2015,Nov-15,cosmopolitan Nov 2015,1,female,39,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_11_2015,NA,NA
+cosmopolitan,11,2015,Nov-15,cosmopolitan Nov 2015,0,female,25,0,0,0,0,0,0,0,0,0.999,0,0,TRUE,TRUE,C_11_2015,NA,NA
+cosmopolitan,11,2015,Nov-15,cosmopolitan Nov 2015,0.365,female,27,0,0,0,0,0.018,0,0,0.365,0.616,0,0,TRUE,TRUE,C_11_2015,NA,NA
+cosmopolitan,11,2016,Nov-16,cosmopolitan Nov 2016,0.001,female,30,0,0,0,0,0,0,0,0.001,0.995,0,0.003,TRUE,TRUE,C_11_2016,1,4
+cosmopolitan,11,2017,Nov-17,cosmopolitan Nov 2017,0.001,female,27,0,0,0,0,0.001,0,0,0.001,0.994,0,0.003,TRUE,TRUE,C_11_2017,4,3
+cosmopolitan,12,2010,Dec-10,cosmopolitan Dec 2010,0.934,female,33,0,0,0,0,0,0,0,0.934,0.066,0,0,TRUE,TRUE,C_12_2010,1,4
+cosmopolitan,12,2011,Dec-11,cosmopolitan Dec 2011,0.018,female,28,0,0,0,0,0.006,0,0,0.018,0.971,0.006,0,TRUE,TRUE,C_12_2011,1,4
+cosmopolitan,12,2012,Dec-12,cosmopolitan Dec 2012,0.003,female,23,0,0,0,0,0,0,0,0.003,0.996,0,0,TRUE,TRUE,C_12_2012,1,4
+cosmopolitan,12,2013,Dec-13,cosmopolitan Dec 2013,1,female,24,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_12_2013,1,2
+cosmopolitan,12,2014,Dec-14,cosmopolitan Dec 2014,0,female,32,0,0,0,0,0.001,0,0,0,0.987,0.001,0.011,TRUE,TRUE,C_12_2014,3,3
+cosmopolitan,12,2015,Dec-15,cosmopolitan Dec 2015,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_12_2015,1,4
+cosmopolitan,12,2016,Dec-16,cosmopolitan Dec 2016,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,C_12_2016,2,4
+cosmopolitan,12,2017,Dec-17,cosmopolitan Dec 2017,0.507,female,26,0,0,0,0,0.001,0,0,0.507,0.491,0,0.002,TRUE,TRUE,C_12_2017,1,4
+essence,1,2010,Jan-10,essence Jan 2010,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_01_2010,4,2
+essence,1,2011,Jan-11,essence Jan 2011,0.998,male,47,0.6,0.6,0.1,0,0,0,0,0.998,0.001,0,0,FALSE,FALSE,E_01_2011,4,1
+essence,1,2012,Jan-12,essence Jan 2012,0.999,female,32,0,0,0,0,0,0,0,0.999,0,0,0.001,TRUE,TRUE,E_01_2012,4,4
+essence,1,2013,Jan-13,essence Jan 2013,1,female,26,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_01_2013,4,2
+essence,1,2014,Jan-14,essence Jan 2014,0,female,27,0,0,0,0,0,0,0,0,0.998,0.002,0,TRUE,TRUE,E_01_2014,4,3
+essence,1,2015,Jan-15,essence Jan 2015,0,female,27,0,0,0,0,0.004,0,0,0,0.987,0.008,0,TRUE,TRUE,E_01_2015,4,2
+essence,1,2016,Jan-16,essence Jan 2016,0.245,female,19,0,0,0,0,0.116,0.001,0,0.245,0.63,0.007,0,TRUE,TRUE,E_01_2016,4,2
+essence,1,2017,Jan-17,essence Jan 2017,0.407,female,29,0,0,0,0,0.001,0,0,0.407,0.588,0,0.003,TRUE,TRUE,E_01_2017,NA,NA
+essence,1,2017,Jan-17,essence Jan 2017,0.891,female,27,0,0,0,0,0.001,0,0,0.891,0.108,0,0,TRUE,TRUE,E_01_2017,NA,NA
+essence,1,2018,Jan-18,essence Jan 2018,0.002,male,33,0.6,0.6,0.6,0.002,0.003,0,0,0.002,0.993,0,0,FALSE,FALSE,E_01_2018,4,1
+essence,2,2010,Feb-10,essence Feb 2010,0,male,24,0.1,0.1,0.1,0,0,0,0,0,0.996,0.004,0,FALSE,TRUE,E_02_2010,4,1
+essence,2,2011,Feb-11,essence Feb 2011,0.8,female,28,0,0,0,0,0.001,0,0,0.8,0.199,0,0,TRUE,TRUE,E_02_2011,4,2
+essence,2,2012,Feb-12,essence Feb 2012,0.96,male,29,0.4,0.4,0.1,0,0.001,0,0,0.96,0.038,0,0,TRUE,TRUE,E_02_2012,NA,NA
+essence,2,2012,Feb-12,essence Feb 2012,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_02_2012,NA,NA
+essence,2,2013,Feb-13,essence Feb 2013,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_02_2013,4,1
+essence,2,2014,Feb-14,essence Feb 2014,0.999,male,45,0.6,0.6,0.1,0.001,0,0,0,0.999,0,0,0,TRUE,FALSE,E_02_2014,NA,NA
+essence,2,2014,Feb-14,essence Feb 2014,1,female,34,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_02_2014,NA,NA
+essence,2,2016,Feb-16,essence Feb 2016,0.001,female,29,0,0,0,0,0,0,0,0.001,0.998,0.001,0.001,TRUE,TRUE,E_02_2016,4,2
+essence,2,2017,Feb-17,essence Feb 2017,0,female,27,0,0,0,0,0,0,0,0,0.999,0,0,TRUE,TRUE,E_02_2017,NA,NA
+essence,2,2017,Feb-17,essence Feb 2017,0.018,female,22,0,0,0,0,0.002,0,0,0.018,0.973,0.001,0.005,TRUE,TRUE,E_02_2017,NA,NA
+essence,2,2017,Feb-17,essence Feb 2017,0.888,female,29,0,0,0,0,0.001,0,0,0.888,0.11,0,0,TRUE,TRUE,E_02_2017,NA,NA
+essence,2,2018,Feb-18,essence Feb 2018,1,female,43,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_02_2018,NA,NA
+essence,2,2018,Feb-18,essence Feb 2018,1,female,36,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_02_2018,NA,NA
+essence,2,2018,Feb-18,essence Feb 2018,0.834,female,24,0,0,0,0,0.006,0,0,0.834,0.16,0,0,TRUE,TRUE,E_02_2018,NA,NA
+essence,3,2010,Mar-10,essence Mar 2010,1,male,44,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,E_03_2010,NA,NA
+essence,3,2010,Mar-10,essence Mar 2010,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_03_2010,NA,NA
+essence,3,2011,Mar-11,essence Mar 2011,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_03_2011,4,2
+essence,3,2012,Mar-12,essence Mar 2012,1,female,38,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_03_2012,NA,NA
+essence,3,2012,Mar-12,essence Mar 2012,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_03_2012,NA,NA
+essence,3,2012,Mar-12,essence Mar 2012,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_03_2012,NA,NA
+essence,3,2013,Mar-13,essence Mar 2013,1,male,31,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,E_03_2013,4,1
+essence,3,2014,Mar-14,essence Mar 2014,0.972,male,34,0.4,0.4,0.4,0,0.017,0,0,0.972,0.011,0,0,FALSE,FALSE,E_03_2014,NA,NA
+essence,3,2014,Mar-14,essence Mar 2014,1,male,27,0.4,0.4,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,E_03_2014,NA,NA
+essence,3,2014,Mar-14,essence Mar 2014,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_03_2014,NA,NA
+essence,3,2014,Mar-14,essence Mar 2014,1,male,49,0.6,0.6,0.1,0,0,0,0,1,0,0,0,FALSE,TRUE,E_03_2014,NA,NA
+essence,3,2015,Mar-15,essence Mar 2015,0.506,female,39,0,0,0,0,0.003,0,0,0.506,0.49,0.001,0,TRUE,TRUE,E_03_2015,4,3
+essence,3,2016,Mar-16,essence Mar 2016,0.007,male,29,0.1,0.1,0.1,0,0.616,0.001,0,0.007,0.373,0.002,0.001,FALSE,FALSE,E_03_2016,4,1
+essence,3,2017,Mar-17,essence Mar 2017,0.956,female,33,0,0,0,0,0.001,0,0,0.956,0.043,0,0,TRUE,TRUE,E_03_2017,4,3
+essence,3,2018,Mar-18,essence Mar 2018,0,male,23,0.4,0.4,0.4,0,0,0,0,0,0.995,0.004,0,FALSE,FALSE,E_03_2018,4,1
+essence,4,2010,Apr-10,essence Apr 2010,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_04_2010,4,4
+essence,4,2011,Apr-11,essence Apr 2011,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_04_2011,4,3
+essence,4,2012,Apr-12,essence Apr 2012,0.999,female,23,0,0,0,0,0,0,0,0.999,0.001,0,0,TRUE,TRUE,E_04_2012,4,2
+essence,4,2013,Apr-13,essence Apr 2013,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_04_2013,NA,NA
+essence,4,2013,Apr-13,essence Apr 2013,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_04_2013,NA,NA
+essence,4,2014,Apr-14,essence Apr 2014,0.999,female,30,0,0,0,0,0,0,0,0.999,0.001,0,0,TRUE,TRUE,E_04_2014,4,3
+essence,4,2015,Apr-15,essence Apr 2015,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_04_2015,NA,NA
+essence,4,2016,Apr-16,essence Apr 2016,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_04_2016,4,4
+essence,4,2017,Apr-17,essence Apr 2017,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_04_2017,NA,NA
+essence,4,2017,Apr-17,essence Apr 2017,1,female,23,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_04_2017,NA,NA
+essence,4,2018,Apr-18,essence Apr 2018,1,female,24,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_04_2018,4,3
+essence,5,2010,May-10,essence May 2010,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_05_2010,4,3
+essence,5,2011,May-11,essence May 2011,1,female,38,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_05_2011,4,4
+essence,5,2012,May-12,essence May 2012,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_05_2012,4,3
+essence,5,2013,May-13,essence May 2013,0.812,female,23,0,0,0,0,0.147,0,0,0.812,0.041,0,0,TRUE,TRUE,E_05_2013,4,2
+essence,5,2014,May-14,essence May 2014,0.998,female,29,0,0,0,0,0,0,0,0.998,0,0,0.001,TRUE,TRUE,E_05_2014,4,3
+essence,5,2015,May-15,essence May 2015,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_05_2015,NA,NA
+essence,5,2015,May-15,essence May 2015,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_05_2015,NA,NA
+essence,5,2015,May-15,essence May 2015,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_05_2015,NA,NA
+essence,5,2015,May-15,essence May 2015,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_05_2015,NA,NA
+essence,5,2015,May-15,essence May 2015,1,female,44,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_05_2015,NA,NA
+essence,5,2016,May-16,essence May 2016,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_05_2016,4,3
+essence,5,2017,May-17,essence May 2017,0.079,female,29,0,0,0,0,0.001,0,0,0.079,0.92,0,0,FALSE,FALSE,E_05_2017,NA,NA
+essence,5,2017,May-17,essence May 2017,0.125,female,33,0,0,0,0,0.001,0,0,0.125,0.873,0,0,TRUE,TRUE,E_05_2017,NA,NA
+essence,5,2017,May-17,essence May 2017,0.581,female,38,0,0,0,0,0.009,0,0,0.581,0.41,0,0,TRUE,TRUE,E_05_2017,NA,NA
+essence,5,2017,May-17,essence May 2017,0.93,female,37,0,0,0,0,0.047,0,0,0.93,0.023,0,0,TRUE,TRUE,E_05_2017,NA,NA
+essence,5,2017,May-17,essence May 2017,0.918,female,7,0,0,0,0,0.001,0,0,0.918,0.081,0,0,TRUE,FALSE,E_05_2017,NA,NA
+essence,5,2017,May-17,essence May 2017,0.593,female,30,0,0,0,0,0,0,0,0.593,0.406,0,0,TRUE,TRUE,E_05_2017,NA,NA
+essence,5,2017,May-17,essence May 2017,0.984,female,27,0,0,0,0,0.003,0,0,0.984,0.012,0,0,TRUE,TRUE,E_05_2017,NA,NA
+essence,5,2017,May-17,essence May 2017,0.978,female,38,0,0,0,0,0.005,0,0,0.978,0.017,0,0,TRUE,TRUE,E_05_2017,NA,NA
+essence,5,2017,May-17,essence May 2017,0.109,female,34,0,0,0,0,0.005,0,0,0.109,0.884,0.002,0,TRUE,FALSE,E_05_2017,NA,NA
+essence,5,2017,May-17,essence May 2017,0.498,female,29,0,0,0,0,0.009,0,0,0.498,0.493,0,0,TRUE,TRUE,E_05_2017,NA,NA
+essence,5,2017,May-17,essence May 2017,0.524,female,32,0,0,0,0,0.139,0,0,0.524,0.336,0.001,0,TRUE,TRUE,E_05_2017,NA,NA
+essence,5,2017,May-17,essence May 2017,0.322,female,33,0,0,0,0,0.001,0,0,0.322,0.677,0,0,TRUE,TRUE,E_05_2017,NA,NA
+essence,5,2018,May-18,essence May 2018,0.001,female,27,0,0,0,0,0,0,0,0.001,0.997,0,0.001,TRUE,TRUE,E_05_2018,4,3
+essence,6,2010,Jun-10,essence Jun 2010,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_06_2010,4,3
+essence,6,2011,Jun-11,essence Jun 2011,0.002,female,26,0,0,0,0,0,0,0,0.002,0.996,0.001,0,TRUE,TRUE,E_06_2011,4,1
+essence,6,2012,Jun-12,essence Jun 2012,0.999,female,29,0,0,0,0,0.001,0,0,0.999,0,0,0,TRUE,TRUE,E_06_2012,4,2
+essence,6,2012,Jun-12,essence Jun 2012,1,male,13,0,0,0,0,0,0,0,1,0,0,0,FALSE,FALSE,E_06_2012,4,2
+essence,6,2013,Jun-13,essence Jun 2013,0.806,male,33,0.6,0.6,0.4,0,0.001,0,0,0.806,0.193,0,0,FALSE,FALSE,E_06_2013,NA,NA
+essence,6,2013,Jun-13,essence Jun 2013,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_06_2013,NA,NA
+essence,6,2014,Jun-14,essence Jun 2014,0,male,29,0.1,0.1,0.1,0,0.001,0,0,0,0.998,0.001,0,TRUE,FALSE,E_06_2014,4,2
+essence,6,2015,Jun-15,essence Jun 2015,0.23,male,29,0.1,0.4,0.1,0,0.001,0,0,0.23,0.759,0,0.01,FALSE,FALSE,E_06_2015,4,1
+essence,6,2016,Jun-16,essence Jun 2016,0,female,25,0,0,0,0,0,0,0,0,1,0,0,TRUE,TRUE,E_06_2016,4,2
+essence,6,2017,Jun-17,essence Jun 2017,0.285,male,32,0.4,0.4,0.4,0.002,0.001,0,0,0.285,0.712,0,0,FALSE,FALSE,E_06_2017,4,1
+essence,6,2018,Jun-18,essence Jun 2018,0,male,25,0.6,0.6,0.4,0,0.001,0,0,0,0.998,0.001,0,FALSE,TRUE,E_06_2018,4,1
+essence,7,2010,Jul-10,essence Jul 2010,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_07_2010,4,3
+essence,7,2011,Jul-11,essence Jul 2011,1,female,24,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_07_2011,4,2
+essence,7,2012,Jul-12,essence Jul 2012,1,male,50,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,E_07_2012,4,1
+essence,7,2013,Jul-13,essence Jul 2013,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_07_2013,4,3
+essence,7,2014,Jul-14,essence Jul 2014,1,male,33,0.4,0.4,0.1,0,0,0,0,1,0,0,0,FALSE,TRUE,E_07_2014,NA,NA
+essence,7,2014,Jul-14,essence Jul 2014,1,male,35,0.1,0.4,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,E_07_2014,NA,NA
+essence,7,2014,Jul-14,essence Jul 2014,0.995,male,34,0.4,0.4,0.1,0.005,0,0,0,0.995,0,0,0,FALSE,FALSE,E_07_2014,NA,NA
+essence,7,2014,Jul-14,essence Jul 2014,1,male,32,0.4,0.4,0.1,0,0,0,0,1,0,0,0,FALSE,TRUE,E_07_2014,NA,NA
+essence,7,2015,Jul-15,essence Jul 2015,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_07_2015,NA,NA
+essence,7,2015,Jul-15,essence Jul 2015,0.172,female,28,0,0,0,0,0,0,0,0.172,0.827,0,0,TRUE,TRUE,E_07_2015,NA,NA
+essence,7,2015,Jul-15,essence Jul 2015,0.757,female,37,0,0,0,0,0.003,0,0,0.757,0.19,0.051,0,TRUE,TRUE,E_07_2015,NA,NA
+essence,7,2015,Jul-15,essence Jul 2015,0.993,female,27,0,0,0,0,0.001,0,0,0.993,0.006,0,0,TRUE,TRUE,E_07_2015,NA,NA
+essence,7,2015,Jul-15,essence Jul 2015,1,female,34,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_07_2015,NA,NA
+essence,7,2016,Jul-16,essence Jul 2016,0.424,male,38,0.1,0.1,0.1,0,0.002,0,0,0.424,0.572,0.002,0,TRUE,FALSE,E_07_2016,4,1
+essence,7,2017,Jul-17,essence Jul 2017,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_07_2017,NA,NA
+essence,7,2017,Jul-17,essence Jul 2017,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_07_2017,NA,NA
+essence,7,2017,Jul-17,essence Jul 2017,1,female,22,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_07_2017,NA,NA
+essence,7,2017,Jul-17,essence Jul 2017,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_07_2017,NA,NA
+essence,8,2010,Aug-10,essence Aug 2010,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_08_2010,4,3
+essence,8,2011,Aug-11,essence Aug 2011,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_08_2011,4,3
+essence,8,2012,Aug-12,essence Aug 2012,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_08_2012,NA,NA
+essence,8,2012,Aug-12,essence Aug 2012,0.995,male,28,0.1,0.1,0.1,0,0,0,0,0.995,0.005,0,0,FALSE,FALSE,E_08_2012,NA,NA
+essence,8,2012,Aug-12,essence Aug 2012,0.006,male,0,0,0,0,0,0,0,0,0.006,0.582,0,0.412,FALSE,FALSE,E_08_2012,NA,NA
+essence,8,2013,Aug-13,essence Aug 2013,1,male,43,0.4,0.4,0.1,0,0,0,0,1,0,0,0,FALSE,TRUE,E_08_2013,4,1
+essence,8,2014,Aug-14,essence Aug 2014,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_08_2014,4,3
+essence,8,2015,Aug-15,essence Aug 2015,0,female,31,0,0,0,0.001,0.004,0.011,0.026,0,0.613,0.009,0.336,TRUE,FALSE,E_08_2015,4,1
+essence,8,2016,Aug-16,essence Aug 2016,0,female,24,0,0,0,0,0,0,0,0,0.991,0.009,0,TRUE,TRUE,E_08_2016,4,3
+essence,8,2017,Aug-17,essence Aug 2017,1,male,47,0.6,0.6,0.6,0,0,0,0,1,0,0,0,FALSE,FALSE,E_08_2017,4,1
+essence,9,2010,Sep-10,essence Sep 2010,0.999,female,25,0,0,0,0,0,0.001,0,0.999,0,0,0,TRUE,TRUE,E_09_2010,NA,NA
+essence,9,2010,Sep-10,essence Sep 2010,0.368,female,30,0,0,0,0,0.001,0,0,0.368,0.63,0,0.001,TRUE,TRUE,E_09_2010,NA,NA
+essence,9,2010,Sep-10,essence Sep 2010,0.99,female,33,0,0,0,0,0,0,0,0.99,0.01,0,0,TRUE,TRUE,E_09_2010,NA,NA
+essence,9,2011,Sep-11,essence Sep 2011,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_09_2011,4,3
+essence,9,2012,Sep-12,essence Sep 2012,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_09_2012,4,4
+essence,9,2013,Sep-13,essence Sep 2013,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_09_2013,4,2
+essence,9,2014,Sep-14,essence Sep 2014,1,female,39,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_09_2014,4,2
+essence,9,2015,Sep-15,essence Sep 2015,0.021,female,33,0,0,0,0,0,0,0,0.021,0.979,0,0,TRUE,TRUE,E_09_2015,4,4
+essence,9,2016,Sep-16,essence Sep 2016,0.775,female,31,0,0,0,0,0.009,0,0,0.775,0.205,0.01,0,FALSE,TRUE,E_09_2016,4,3
+essence,9,2017,Sep-17,essence Sep 2017,0.993,female,30,0,0,0,0,0,0,0,0.993,0.007,0,0,TRUE,TRUE,E_09_2017,4,3
+essence,10,2010,Oct-10,essence Oct 2010,1,male,38,0.1,0.4,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,E_10_2010,NA,NA
+essence,10,2010,Oct-10,essence Oct 2010,1,male,33,0.4,0.4,0.1,0,0,0,0,1,0,0,0,TRUE,TRUE,E_10_2010,NA,NA
+essence,10,2010,Oct-10,essence Oct 2010,1,male,29,0.4,0.4,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,E_10_2010,NA,NA
+essence,10,2011,Oct-11,essence Oct 2011,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_10_2011,4,2
+essence,10,2012,Oct-12,essence Oct 2012,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_10_2012,4,1
+essence,10,2013,Oct-13,essence Oct 2013,0.999,female,32,0,0,0,0,0,0,0,0.999,0.001,0,0,TRUE,TRUE,E_10_2013,4,2
+essence,10,2014,Oct-14,essence Oct 2014,0.998,female,33,0,0,0,0,0,0,0,0.998,0.002,0,0,TRUE,TRUE,E_10_2014,NA,NA
+essence,10,2014,Oct-14,essence Oct 2014,0.999,female,32,0,0,0,0,0,0,0,0.999,0.001,0,0,TRUE,TRUE,E_10_2014,NA,NA
+essence,10,2014,Oct-14,essence Oct 2014,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_10_2014,NA,NA
+essence,10,2014,Oct-14,essence Oct 2014,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_10_2014,NA,NA
+essence,10,2015,Oct-15,essence Oct 2015,0.002,male,32,0.4,0.4,0.4,0,0.002,0,0,0.002,0.994,0.002,0,FALSE,FALSE,E_10_2015,NA,NA
+essence,10,2015,Oct-15,essence Oct 2015,1,male,29,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,E_10_2015,NA,NA
+essence,10,2015,Oct-15,essence Oct 2015,0.667,female,24,0,0,0,0,0.001,0,0,0.667,0.316,0.006,0.011,TRUE,TRUE,E_10_2015,NA,NA
+essence,10,2016,Oct-16,essence Oct 2016,1,male,54,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,E_10_2016,NA,NA
+essence,10,2016,Oct-16,essence Oct 2016,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_10_2016,NA,NA
+essence,10,2017,Oct-17,essence Oct 2017,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_10_2017,4,2
+essence,11,2010,Nov-10,essence Nov 2010,0.726,female,31,0,0,0,0,0.004,0,0,0.726,0.269,0,0,TRUE,TRUE,E_11_2010,4,3
+essence,11,2011,Nov-11,essence Nov 2011,1,male,48,0.4,0.4,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,E_11_2011,4,1
+essence,11,2012,Nov-12,essence Nov 2012,1,male,35,0.6,0.4,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,E_11_2012,4,1
+essence,11,2013,Nov-13,essence Nov 2013,0.525,female,28,0,0,0,0,0,0,0,0.525,0.466,0,0.008,TRUE,TRUE,E_11_2013,4,3
+essence,11,2014,Nov-14,essence Nov 2014,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_11_2014,4,4
+essence,11,2015,Nov-15,essence Nov 2015,0.001,female,32,0,0,0,0,0,0,0,0.001,0.997,0,0.002,TRUE,TRUE,E_11_2015,4,3
+essence,11,2016,Nov-16,essence Nov 2016,0,female,28,0,0,0,0,0,0,0,0,0.998,0.002,0,TRUE,TRUE,E_11_2016,4,3
+essence,11,2017,Nov-17,essence Nov 2017,0,female,33,0,0,0,0,0,0,0,0,0.998,0.002,0,TRUE,TRUE,E_11_2017,4,4
+essence,12,2010,Dec-10,essence Dec 2010,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_12_2010,NA,NA
+essence,12,2010,Dec-10,essence Dec 2010,0.988,female,41,0,0,0,0.001,0.001,0,0,0.988,0.01,0,0,FALSE,FALSE,E_12_2010,NA,NA
+essence,12,2010,Dec-10,essence Dec 2010,0.926,female,45,0,0,0,0.001,0,0.002,0,0.926,0.058,0.001,0.012,TRUE,TRUE,E_12_2010,NA,NA
+essence,12,2010,Dec-10,essence Dec 2010,1,female,42,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_12_2010,NA,NA
+essence,12,2010,Dec-10,essence Dec 2010,0.999,female,31,0,0,0,0,0,0,0,0.999,0,0,0,TRUE,TRUE,E_12_2010,NA,NA
+essence,12,2010,Dec-10,essence Dec 2010,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_12_2010,NA,NA
+essence,12,2010,Dec-10,essence Dec 2010,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_12_2010,NA,NA
+essence,12,2010,Dec-10,essence Dec 2010,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_12_2010,NA,NA
+essence,12,2010,Dec-10,essence Dec 2010,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_12_2010,NA,NA
+essence,12,2011,Dec-11,essence Dec 2011,1,female,34,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_12_2011,4,4
+essence,12,2012,Dec-12,essence Dec 2012,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_12_2012,4,4
+essence,12,2013,Dec-13,essence Dec 2013,1,female,37,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_12_2013,4,4
+essence,12,2014,Dec-14,essence Dec 2014,0.839,male,33,0.6,0.4,0.1,0,0.001,0,0,0.839,0.011,0,0.149,FALSE,TRUE,E_12_2014,NA,NA
+essence,12,2014,Dec-14,essence Dec 2014,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_12_2014,NA,NA
+essence,12,2015,Dec-15,essence Dec 2015,0.232,female,23,0,0,0,0,0.001,0,0,0.232,0.767,0,0,TRUE,TRUE,E_12_2015,4,3
+essence,12,2016,Dec-16,essence Dec 2016,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,E_12_2016,4,2
+essence,12,2017,Dec-17,essence Dec 2017,0.877,female,51,0,0,0,0,0,0,0,0.877,0.122,0,0,TRUE,TRUE,E_12_2017,4,2
+esquire,1,2010,Jan-10,esquire Jan 2010,0.007,male,48,0.1,0.1,0.1,0,0,0,0,0.007,0.993,0,0.001,FALSE,FALSE,EQ_01_2010,NA,NA
+esquire,1,2010,Jan-10,esquire Jan 2010,0,male,36,0.1,0.1,0.1,0,0.003,0,0,0,0.993,0.004,0,FALSE,FALSE,EQ_01_2010,NA,NA
+esquire,1,2011,Jan-11,esquire Jan 2011,0.112,male,58,0.1,0.1,0.1,0,0.001,0,0,0.112,0.882,0.005,0,FALSE,FALSE,EQ_01_2011,1,2
+esquire,1,2012,Jan-12,esquire Jan 2012,0.846,male,51,0.1,0.1,0.1,0,0.004,0,0,0.846,0.15,0,0,FALSE,FALSE,EQ_01_2012,1,2
+esquire,1,2013,Jan-13,esquire Jan 2013,0,male,58,0.6,0.6,0.1,0.051,0.018,0.001,0,0,0.921,0.007,0,FALSE,FALSE,EQ_01_2013,1,2
+esquire,1,2016,Jan-16,esquire Jan 2016,0.997,male,58,0.1,0.1,0.1,0.001,0,0,0.001,0.997,0,0,0,FALSE,FALSE,EQ_01_2016,NA,NA
+esquire,1,2016,Jan-16,esquire Jan 2016,0.021,male,50,0.1,0.1,0.1,0,0.001,0.015,0.321,0.021,0,0.641,0.001,FALSE,FALSE,EQ_01_2016,NA,NA
+esquire,1,2017,Jan-17,esquire Jan 2017,0.006,male,43,0.6,0.6,0.6,0.04,0,0,0,0.006,0.953,0,0,FALSE,FALSE,EQ_01_2017,1,2
+esquire,1,2018,Jan-18,esquire Jan 2018,0,male,32,0.4,0.4,0.1,0.004,0.048,0,0,0,0.908,0.038,0,TRUE,FALSE,EQ_01_2018,1,2
+esquire,2,2010,Feb-10,esquire Feb 2010,0.007,female,22,0,0,0,0,0,0,0,0.007,0.993,0,0,TRUE,TRUE,EQ_02_2010,1,3
+esquire,2,2011,Feb-11,esquire Feb 2011,0,female,32,0,0,0,0.015,0.001,0,0,0,0.983,0.001,0,TRUE,TRUE,EQ_02_2011,1,4
+esquire,2,2012,Feb-12,esquire Feb 2012,0.418,male,58,0.1,0.1,0.1,0,0.002,0,0,0.418,0.58,0,0,FALSE,FALSE,EQ_02_2012,1,2
+esquire,2,2013,Feb-13,esquire Feb 2013,0.003,female,27,0,0,0,0,0.001,0,0,0.003,0.992,0.003,0,TRUE,TRUE,EQ_02_2013,1,4
+esquire,2,2016,Feb-16,esquire Feb 2016,0,male,63,0.1,0.1,0.1,0.18,0.014,0.074,0.001,0,0.112,0.619,0,TRUE,FALSE,EQ_02_2016,1,2
+esquire,2,2018,Feb-18,esquire Feb 2018,0,male,45,0.1,0.1,0.1,0,0.002,0,0,0,0.443,0.555,0,FALSE,FALSE,EQ_02_2018,1,2
+esquire,3,2010,Mar-10,esquire Mar 2010,0.996,male,34,0.1,0.1,0.1,0,0,0,0,0.996,0.004,0,0,FALSE,FALSE,EQ_03_2010,1,2
+esquire,3,2011,Mar-11,esquire Mar 2011,0.011,male,48,0.4,0.4,0.1,0.001,0.001,0,0,0.011,0.986,0.001,0,FALSE,TRUE,EQ_03_2011,1,2
+esquire,3,2012,Mar-12,esquire Mar 2012,0.64,female,27,0,0,0,0,0.024,0,0,0.64,0.334,0.002,0,TRUE,TRUE,EQ_03_2012,1,4
+esquire,3,2013,Mar-13,esquire Mar 2013,1,male,35,0.1,0.1,0.1,0,0,0,0,1,0,0,0,TRUE,TRUE,EQ_03_2013,1,2
+esquire,3,2014,Mar-14,esquire Mar 2014,0,male,36,0.6,0.4,0.4,0.05,0.03,0,0,0,0.911,0.009,0,TRUE,FALSE,EQ_03_2014,1,2
+esquire,3,2015,Mar-15,esquire Mar 2015,0.993,male,32,0.1,0.1,0.1,0,0.001,0,0,0.993,0.002,0,0.004,TRUE,FALSE,EQ_03_2015,4,1
+esquire,3,2016,Mar-16,esquire Mar 2016,0,male,24,0.1,0.1,0.1,0.001,0.003,0,0,0,0.972,0,0.024,TRUE,FALSE,EQ_03_2016,4,1
+esquire,3,2017,Mar-17,esquire Mar 2017,0,male,44,0.4,0.4,0.1,0.074,0.001,0.006,0.092,0,0.063,0.003,0.762,FALSE,FALSE,EQ_03_2017,1,2
+esquire,3,2018,Mar-18,esquire Mar 2018,1,male,39,0.6,0.6,0.6,0,0,0,0,1,0,0,0,TRUE,FALSE,EQ_03_2018,4,2
+esquire,4,2010,Apr-10,esquire Apr 2010,0,female,30,0,0,0,0,0,0,0,0,0.994,0,0.006,TRUE,TRUE,EQ_04_2010,1,3
+esquire,4,2011,Apr-11,esquire Apr 2011,0.993,male,45,0.1,0.4,0.1,0,0,0,0,0.993,0.007,0,0,FALSE,FALSE,EQ_04_2011,1,2
+esquire,4,2012,Apr-12,esquire Apr 2012,0.043,female,32,0,0,0,0,0.001,0,0,0.043,0.955,0.001,0,TRUE,TRUE,EQ_04_2012,1,4
+esquire,4,2013,Apr-13,esquire Apr 2013,0.002,male,59,0.1,0.1,0.1,0.012,0.005,0.001,0,0.002,0.972,0.009,0,FALSE,FALSE,EQ_04_2013,1,2
+esquire,4,2014,Apr-14,esquire Apr 2014,0.043,male,38,0.1,0.4,0.1,0.001,0.079,0.001,0,0.043,0.872,0.004,0,TRUE,FALSE,EQ_04_2014,1,2
+esquire,4,2015,Apr-15,esquire Apr 2015,0,male,42,0.6,0.6,0.6,0.009,0.001,0,0,0,0.989,0.001,0,TRUE,FALSE,EQ_04_2015,NA,NA
+esquire,4,2015,Apr-15,esquire Apr 2015,0.383,female,38,0,0,0,0,0.002,0,0,0.383,0.613,0,0.003,TRUE,TRUE,EQ_04_2015,NA,NA
+esquire,4,2016,Apr-16,esquire Apr 2016,0.001,male,40,0.1,0.1,0.1,0,0,0,0,0.001,0.999,0,0,FALSE,FALSE,EQ_04_2016,NA,NA
+esquire,4,2016,Apr-16,esquire Apr 2016,1,male,37,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,EQ_04_2016,NA,NA
+esquire,4,2017,Apr-17,esquire Apr 2017,0,male,34,0.4,0.4,0.4,0,0.002,0,0,0,0.997,0.001,0,TRUE,FALSE,EQ_04_2017,1,2
+esquire,4,2018,Apr-18,esquire Apr 2018,0,male,32,0.6,0.6,0.4,0,0,0,0,0,0.997,0.003,0,TRUE,FALSE,EQ_04_2018,1,1
+esquire,5,2010,May-10,esquire May 2010,0,female,34,0,0,0,0,0.001,0,0,0,0.96,0.038,0.001,TRUE,TRUE,EQ_05_2010,1,3
+esquire,5,2011,May-11,esquire May 2011,0,male,57,0.6,0.6,0.4,0.975,0,0.001,0,0,0.021,0,0.004,FALSE,FALSE,EQ_05_2011,1,2
+esquire,5,2012,May-12,esquire May 2012,0,male,40,0.4,0.6,0.1,0,0,0,0,0,0.999,0.001,0,FALSE,FALSE,EQ_05_2012,1,2
+esquire,5,2013,May-13,esquire May 2013,0,male,37,0.1,0.1,0.1,0,0.001,0,0,0,0.998,0.001,0,FALSE,FALSE,EQ_05_2013,1,2
+esquire,5,2014,May-14,esquire May 2014,0,male,36,0.6,0.6,0.6,0.229,0.002,0,0,0,0.766,0,0.002,FALSE,TRUE,EQ_05_2014,1,2
+esquire,5,2015,May-15,esquire May 2015,0,female,28,0,0,0,0,0,0,0,0,0.998,0.002,0,TRUE,TRUE,EQ_05_2015,1,3
+esquire,5,2016,May-16,esquire May 2016,0.006,male,58,0.1,0.1,0.1,0.002,0.027,0,0,0.006,0.937,0.027,0,FALSE,FALSE,EQ_05_2016,1,2
+esquire,5,2017,May-17,esquire May 2017,0,male,48,0.4,0.4,0.1,0.012,0.002,0,0,0,0.982,0.002,0,FALSE,FALSE,EQ_05_2017,3,2
+esquire,5,2018,May-18,esquire May 2018,0,male,37,0.6,0.6,0.4,0.007,0.006,0,0,0,0.914,0.073,0,FALSE,FALSE,EQ_05_2018,1,2
+esquire,6,2010,Jun-10,esquire Jun 2010,1,male,41,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,EQ_06_2010,1,2
+esquire,6,2011,Jun-11,esquire Jun 2011,1,male,41,0.4,0.4,0.4,0,0,0,0,1,0,0,0,TRUE,FALSE,EQ_06_2011,1,2
+esquire,6,2012,Jun-12,esquire Jun 2012,0,male,55,0.1,0.1,0.1,0.001,0.006,0,0,0,0.993,0,0,TRUE,TRUE,EQ_06_2012,1,1
+esquire,6,2013,Jun-13,esquire Jun 2013,0,male,40,0.1,0.1,0.1,0,0,0,0,0,0.999,0,0,FALSE,FALSE,EQ_06_2013,1,3
+esquire,6,2014,Jun-14,esquire Jun 2014,1,male,44,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,EQ_06_2014,1,2
+esquire,6,2015,Jun-15,esquire Jun 2015,0,male,38,0.4,0.4,0.4,0.001,0.216,0,0,0,0.783,0,0,FALSE,FALSE,EQ_06_2015,1,1
+esquire,6,2016,Jun-16,esquire Jun 2016,0.02,male,29,0.1,0.1,0.1,0.002,0.088,0.001,0,0.02,0.878,0.011,0,FALSE,FALSE,EQ_06_2016,1,2
+esquire,6,2017,Jun-17,esquire Jun 2017,0,male,33,0.6,0.6,0.4,0,0,0,0,0,0.989,0.011,0,TRUE,FALSE,EQ_06_2017,1,2
+esquire,6,2018,Jun-18,esquire Jun 2018,0,male,30,0.4,0.4,0.4,0.004,0.086,0,0,0,0.899,0.012,0,FALSE,FALSE,EQ_06_2018,4,2
+esquire,7,2010,Jul-10,esquire Jul 2010,1,male,41,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,EQ_07_2010,1,2
+esquire,7,2011,Jul-11,esquire Jul 2011,1,male,41,0.4,0.4,0.4,0,0,0,0,1,0,0,0,TRUE,FALSE,EQ_07_2011,1,2
+esquire,7,2012,Jul-12,esquire Jul 2012,0,male,55,0.1,0.1,0.1,0.001,0.006,0,0,0,0.993,0,0,TRUE,TRUE,EQ_07_2012,1,1
+esquire,7,2013,Jul-13,esquire Jul 2013,0,male,40,0.1,0.1,0.1,0,0,0,0,0,0.999,0,0,FALSE,FALSE,EQ_07_2013,1,3
+esquire,7,2014,Jul-14,esquire Jul 2014,1,male,44,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,EQ_07_2014,1,2
+esquire,7,2015,Jul-15,esquire Jul 2015,0,male,38,0.4,0.4,0.4,0.001,0.216,0,0,0,0.783,0,0,FALSE,FALSE,EQ_07_2015,1,1
+esquire,7,2016,Jul-16,esquire Jul 2016,0.02,male,29,0.1,0.1,0.1,0.002,0.088,0.001,0,0.02,0.878,0.011,0,FALSE,FALSE,EQ_07_2016,1,2
+esquire,7,2017,Jul-17,esquire Jul 2017,0,male,33,0.6,0.6,0.4,0,0,0,0,0,0.989,0.011,0,TRUE,FALSE,EQ_07_2017,1,2
+esquire,7,2018,Jul-18,esquire Jul 2018,0,male,30,0.4,0.4,0.4,0.004,0.086,0,0,0,0.899,0.012,0,FALSE,FALSE,EQ_07_2018,NA,NA
+esquire,8,2010,Aug-10,esquire Aug 2010,0.062,male,56,0.1,0.1,0.1,0.029,0.088,0.004,0,0.062,0.808,0.009,0,FALSE,FALSE,EQ_08_2010,1,2
+esquire,8,2011,Aug-11,esquire Aug 2011,0,male,51,0.1,0.1,0.1,0,0.001,0,0,0,0.998,0,0,FALSE,FALSE,EQ_08_2011,1,2
+esquire,8,2012,Aug-12,esquire Aug 2012,0,male,27,0.1,0.1,0.1,0,0.001,0,0,0,0.989,0.009,0,TRUE,TRUE,EQ_08_2012,1,2
+esquire,8,2013,Aug-13,esquire Aug 2013,1,male,39,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,EQ_08_2013,1,2
+esquire,8,2014,Aug-14,esquire Aug 2014,0.003,female,36,0,0,0,0,0,0,0,0.003,0.996,0.001,0,TRUE,TRUE,EQ_08_2014,1,2
+esquire,8,2015,Aug-15,esquire Aug 2015,0.01,male,51,0.1,0.1,0.1,0.99,0,0,0,0.01,0,0,0,FALSE,FALSE,EQ_08_2015,4,1
+esquire,8,2016,Aug-16,esquire Aug 2016,0.132,male,26,0.1,0.1,0.1,0.002,0.005,0.002,0,0.132,0.856,0.003,0,TRUE,FALSE,EQ_08_2016,1,2
+esquire,8,2017,Aug-17,esquire Aug 2017,0.006,male,34,0.6,0.6,0.6,0.023,0.131,0.001,0,0.006,0.822,0.016,0,FALSE,FALSE,EQ_08_2017,4,1
+esquire,9,2010,Sep-10,esquire Sep 2010,0.011,male,32,0.4,0.4,0.1,0.001,0.003,0,0,0.011,0.985,0.001,0,FALSE,FALSE,EQ_09_2010,1,2
+esquire,9,2011,Sep-11,esquire Sep 2011,0,male,32,0.6,0.4,0.4,0,0,0,0,0,1,0,0,FALSE,FALSE,EQ_09_2011,NA,NA
+esquire,9,2012,Sep-12,esquire Sep 2012,1,male,37,0.6,0.6,0.4,0,0,0,0,1,0,0,0,FALSE,TRUE,EQ_09_2012,NA,NA
+esquire,9,2012,Sep-12,esquire Sep 2012,0.987,male,32,0.6,0.6,0.4,0.013,0,0,0,0.987,0,0,0,TRUE,TRUE,EQ_09_2012,NA,NA
+esquire,9,2013,Sep-13,esquire Sep 2013,1,male,34,0.4,0.1,0.4,0,0,0,0,1,0,0,0,TRUE,FALSE,EQ_09_2013,1,2
+esquire,9,2014,Sep-14,esquire Sep 2014,0,male,38,0.4,0.4,0.1,0,0,0,0,0,1,0,0,TRUE,FALSE,EQ_09_2014,1,2
+esquire,9,2015,Sep-15,esquire Sep 2015,0,male,32,0.1,0.1,0.1,0,0,0,0,0,0.943,0.057,0,TRUE,FALSE,EQ_09_2015,1,2
+esquire,9,2016,Sep-16,esquire Sep 2016,1,male,63,0.1,0.1,0.1,0,0,0,0,1,0,0,0,TRUE,FALSE,EQ_09_2016,NA,NA
+esquire,9,2016,Sep-16,esquire Sep 2016,1,male,33,0.1,0.1,0.1,0,0,0,0,1,0,0,0,TRUE,FALSE,EQ_09_2016,NA,NA
+esquire,9,2017,Sep-17,esquire Sep 2017,0.002,male,48,0.1,0.1,0.1,0.002,0.022,0.001,0,0.002,0.971,0.002,0,FALSE,FALSE,EQ_09_2017,1,2
+esquire,10,2010,Oct-10,esquire Oct 2010,0,male,43,0.4,0.6,0.1,0,0,0,0,0,0.995,0.004,0,TRUE,FALSE,EQ_10_2010,3,2
+esquire,10,2011,Oct-11,esquire Oct 2011,0,male,32,0.1,0.1,0.1,0.286,0.001,0,0,0,0.713,0,0,FALSE,FALSE,EQ_10_2011,1,1
+esquire,10,2012,Oct-12,esquire Oct 2012,0,male,60,0.1,0.1,0.1,0.129,0.015,0.001,0,0,0.851,0.004,0,FALSE,FALSE,EQ_10_2012,1,1
+esquire,10,2013,Oct-13,esquire Oct 2013,0.987,male,48,0.1,0.1,0.1,0,0,0,0,0.987,0.013,0,0,FALSE,FALSE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,0,male,33,0.6,0.6,0.4,0,0.003,0,0,0,0.988,0,0.008,FALSE,FALSE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,0.33,male,45,0.4,0.4,0.4,0,0.007,0,0,0.33,0.663,0,0,FALSE,FALSE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,1,male,56,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,1,male,44,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,0,male,33,0.4,0.4,0.4,0.002,0.001,0.001,0.001,0,0.976,0.003,0.016,TRUE,TRUE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,0,male,60,0.1,0.1,0.1,0.003,0.001,0,0,0,0.996,0,0,TRUE,FALSE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,1,male,50,0.1,0.1,0.1,0,0,0,0,1,0,0,0,TRUE,FALSE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,1,male,38,0.4,0.4,0.4,0,0,0,0,1,0,0,0,FALSE,FALSE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,1,male,28,0.1,0.1,0.1,0,0,0,0,1,0,0,0,TRUE,FALSE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,1,male,48,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,0.866,male,8,0,0,0,0,0,0,0,0.866,0.133,0,0,FALSE,FALSE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,0.969,male,58,0.1,0.1,0.1,0,0,0,0,0.969,0.03,0,0,FALSE,FALSE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,0,female,2,0,0,0,0,0,0,0,0,1,0,0,TRUE,TRUE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,1,female,7,0,0,0,0,0,0,0,1,0,0,0,FALSE,FALSE,EQ_10_2013,NA,NA
+esquire,10,2013,Oct-13,esquire Oct 2013,0.145,male,71,0.6,0.6,0.1,0,0.001,0,0,0.145,0.854,0,0,FALSE,FALSE,EQ_10_2013,NA,NA
+esquire,10,2016,Oct-16,esquire Oct 2016,0,male,33,0.4,0.1,0.1,0.067,0.01,0,0,0,0.921,0.002,0,FALSE,FALSE,EQ_10_2016,1,2
+esquire,11,2010,Nov-10,esquire Nov 2010,0.062,female,23,0,0,0,0,0.001,0,0,0.062,0.935,0.001,0,TRUE,TRUE,EQ_11_2010,1,4
+esquire,11,2011,Nov-11,esquire Nov 2011,0,female,22,0,0,0,0.001,0,0,0,0,0.997,0.002,0.001,TRUE,TRUE,EQ_11_2011,4,3
+esquire,11,2012,Nov-12,esquire Nov 2012,0,female,24,0,0,0,0,0,0,0,0,0.999,0,0,TRUE,TRUE,EQ_11_2012,1,4
+esquire,11,2013,Nov-13,esquire Nov 2013,0,female,23,0,0,0,0,0,0,0,0,0.992,0.003,0.005,TRUE,TRUE,EQ_11_2013,1,3
+esquire,11,2014,Nov-14,esquire Nov 2014,0,female,26,0,0,0,0,0,0,0,0,0.995,0.003,0.002,TRUE,TRUE,EQ_11_2014,3,4
+esquire,11,2015,Nov-15,esquire Nov 2015,0.011,female,29,0,0,0,0,0.001,0,0,0.011,0.987,0.001,0.001,TRUE,TRUE,EQ_11_2015,1,4
+esquire,11,2016,Nov-16,esquire Nov 2016,0.994,male,52,0.1,0.1,0.1,0,0.005,0,0,0.994,0.001,0,0,TRUE,FALSE,EQ_11_2016,1,2
+esquire,11,2017,Nov-17,esquire Nov 2017,0.002,male,52,0.1,0.1,0.1,0.005,0.006,0,0,0.002,0.984,0.001,0.001,FALSE,FALSE,EQ_11_2017,1,2
+esquire,12,2010,Dec-10,esquire Dec 2010,0.146,male,45,0.6,0.6,0.1,0,0.001,0,0,0.146,0.853,0,0,TRUE,FALSE,EQ_12_2010,1,3
+esquire,12,2012,Dec-12,esquire Dec 2012,1,male,38,0.4,0.4,0.4,0,0,0,0,1,0,0,0,FALSE,TRUE,EQ_12_2012,1,2
+esquire,12,2013,Dec-13,esquire Dec 2013,0,male,56,0.1,0.1,0.1,0.001,0.028,0,0,0,0.97,0.001,0,TRUE,FALSE,EQ_12_2013,1,2
+esquire,12,2014,Dec-14,esquire Dec 2014,0,male,30,0.1,0.1,0.1,0.002,0.132,0,0,0,0.863,0.003,0,FALSE,FALSE,EQ_12_2014,1,1
+esquire,12,2015,Dec-15,esquire Dec 2015,0.997,male,58,0.1,0.1,0.1,0.001,0,0,0.001,0.997,0,0,0,FALSE,FALSE,EQ_12_2015,NA,NA
+esquire,12,2015,Dec-15,esquire Dec 2015,0.021,male,50,0.1,0.1,0.1,0,0.001,0.015,0.321,0.021,0,0.641,0.001,FALSE,FALSE,EQ_12_2015,NA,NA
+esquire,12,2016,Dec-16,esquire Dec 2016,0.006,male,43,0.6,0.6,0.6,0.04,0,0,0,0.006,0.953,0,0,FALSE,FALSE,EQ_12_2016,1,2
+esquire,12,2017,Dec-17,esquire Dec 2017,0,male,32,0.4,0.4,0.1,0.004,0.048,0,0,0,0.908,0.038,0,TRUE,FALSE,EQ_12_2017,1,2
+seventeen,1,2010,Jan-10,seventeen Jan 2010,1,female,26,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_01_2010,1,4
+seventeen,1,2011,Jan-11,seventeen Jan 2011,0.025,female,22,0,0,0,0,0,0,0,0.025,0.974,0,0,TRUE,TRUE,S_01_2011,1,4
+seventeen,1,2012,Jan-12,seventeen Jan 2012,1,female,34,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_01_2012,1,4
+seventeen,1,2013,Jan-13,seventeen Jan 2013,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_01_2013,1,4
+seventeen,1,2014,Jan-14,seventeen Jan 2014,0.193,male,31,0.1,0.1,0.1,0,0,0,0,0.193,0.807,0,0,FALSE,FALSE,S_01_2014,NA,NA
+seventeen,1,2014,Jan-14,seventeen Jan 2014,0.001,male,21,0.1,0.1,0.1,0,0,0,0,0.001,0.997,0.001,0,TRUE,TRUE,S_01_2014,NA,NA
+seventeen,1,2014,Jan-14,seventeen Jan 2014,0,male,21,0.1,0.1,0.1,0,0,0,0,0,1,0,0,TRUE,TRUE,S_01_2014,NA,NA
+seventeen,1,2014,Jan-14,seventeen Jan 2014,0,male,22,0.1,0.1,0.1,0.01,0.001,0,0,0,0.952,0.036,0,FALSE,FALSE,S_01_2014,NA,NA
+seventeen,1,2014,Jan-14,seventeen Jan 2014,0.006,male,22,0.1,0.1,0.1,0,0.002,0,0,0.006,0.991,0.002,0,FALSE,FALSE,S_01_2014,NA,NA
+seventeen,1,2015,Jan-15,seventeen Jan 2015,0,female,24,0,0,0,0,0,0,0,0,0.995,0.002,0.002,TRUE,TRUE,S_01_2015,1,4
+seventeen,1,2016,Jan-16,seventeen Jan 2016,0.001,female,22,0,0,0,0,0,0,0.002,0.001,0.906,0.018,0.072,TRUE,TRUE,S_01_2016,1,3
+seventeen,1,2017,Jan-17,seventeen Jan 2017,1,male,28,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,S_01_2017,NA,NA
+seventeen,1,2017,Jan-17,seventeen Jan 2017,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_01_2017,NA,NA
+seventeen,2,2010,Feb-10,seventeen Feb 2010,0.01,female,24,0,0,0,0,0.005,0,0,0.01,0.985,0,0,TRUE,TRUE,S_02_2010,1,4
+seventeen,2,2011,Feb-11,seventeen Feb 2011,1,female,26,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_02_2011,1,4
+seventeen,2,2012,Feb-12,seventeen Feb 2012,1,female,22,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_02_2012,1,4
+seventeen,2,2013,Feb-13,seventeen Feb 2013,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_02_2013,1,4
+seventeen,2,2014,Feb-14,seventeen Feb 2014,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_02_2014,1,4
+seventeen,2,2015,Feb-15,seventeen Feb 2015,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_02_2015,1,3
+seventeen,2,2016,Feb-16,seventeen Feb 2016,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_02_2016,1,4
+seventeen,2,2017,Feb-17,seventeen Feb 2017,0.856,female,28,0,0,0,0,0.001,0,0,0.856,0.134,0.009,0.001,TRUE,TRUE,S_02_2017,1,4
+seventeen,3,2010,Mar-10,seventeen Mar 2010,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_03_2010,1,4
+seventeen,3,2011,Mar-11,seventeen Mar 2011,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_03_2011,1,4
+seventeen,3,2012,Mar-12,seventeen Mar 2012,1,female,22,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_03_2012,1,2
+seventeen,3,2012,Mar-12,seventeen Mar 2012,0.035,female,28,0,0,0,0,0.002,0,0,0.035,0.961,0.002,0,TRUE,TRUE,S_03_2012,1,2
+seventeen,3,2013,Mar-13,seventeen Mar 2013,1,female,22,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_03_2013,1,4
+seventeen,3,2014,Mar-14,seventeen Mar 2014,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_03_2014,3,3
+seventeen,3,2014,Mar-14,seventeen Mar 2014,0.01,female,29,0,0,0,0,0.001,0,0,0.01,0.987,0.001,0,TRUE,TRUE,S_03_2014,3,3
+seventeen,3,2014,Mar-14,seventeen Mar 2014,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_03_2014,3,3
+seventeen,3,2014,Mar-14,seventeen Mar 2014,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_03_2014,3,3
+seventeen,3,2014,Mar-14,seventeen Mar 2014,0.987,female,29,0,0,0,0,0,0,0,0.987,0.005,0.008,0,TRUE,TRUE,S_03_2014,3,3
+seventeen,3,2015,Mar-15,seventeen Mar 2015,0.999,female,27,0,0,0,0,0,0,0,0.999,0,0,0.001,TRUE,TRUE,S_03_2015,1,4
+seventeen,3,2016,Mar-16,seventeen Mar 2016,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_03_2016,NA,NA
+seventeen,3,2016,Mar-16,seventeen Mar 2016,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_03_2016,NA,NA
+seventeen,3,2016,Mar-16,seventeen Mar 2016,0.984,female,28,0,0,0,0,0,0,0,0.984,0,0,0.016,TRUE,TRUE,S_03_2016,NA,NA
+seventeen,3,2016,Mar-16,seventeen Mar 2016,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_03_2016,NA,NA
+seventeen,3,2016,Mar-16,seventeen Mar 2016,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_03_2016,NA,NA
+seventeen,3,2017,Mar-17,seventeen Mar 2017,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_03_2017,3,3
+seventeen,4,2010,Apr-10,seventeen Apr 2010,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_04_2010,1,4
+seventeen,4,2011,Apr-11,seventeen Apr 2011,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_04_2011,1,4
+seventeen,4,2012,Apr-12,seventeen Apr 2012,1,female,23,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_04_2012,1,4
+seventeen,4,2013,Apr-13,seventeen Apr 2013,1,female,25,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_04_2013,1,4
+seventeen,4,2014,Apr-14,seventeen Apr 2014,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_04_2014,1,4
+seventeen,4,2015,Apr-15,seventeen Apr 2015,0,male,26,0.1,0.1,0.1,0.005,0.005,0.001,0,0,0.986,0.002,0,TRUE,FALSE,S_04_2015,1,2
+seventeen,4,2017,Apr-17,seventeen Apr 2017,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_04_2017,3,3
+seventeen,5,2010,May-10,seventeen May 2010,1,female,24,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_05_2010,1,4
+seventeen,5,2011,May-11,seventeen May 2011,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_05_2011,1,4
+seventeen,5,2012,May-12,seventeen May 2012,1,female,24,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_05_2012,1,3
+seventeen,5,2012,May-12,seventeen May 2012,0,male,22,0.1,0.1,0.1,0,0.002,0,0,0,0.994,0.004,0,TRUE,TRUE,S_05_2012,1,3
+seventeen,5,2013,May-13,seventeen May 2013,1,female,24,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_05_2013,1,3
+seventeen,5,2016,May-16,seventeen May 2016,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_05_2016,1,4
+seventeen,5,2017,May-17,seventeen May 2017,1,male,24,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,S_05_2017,1,2
+seventeen,5,2018,May-18,seventeen May 2018,0.017,female,28,0,0,0,0,0,0,0,0.017,0.981,0.001,0,TRUE,TRUE,S_05_2018,1,4
+seventeen,05b,2012,May-12,seventeen May 2012,1,male,22,0.1,0.1,0.1,0,0,0,0,1,0,0,0,TRUE,TRUE,S_05b_2012,NA,NA
+seventeen,6,2010,Jun-10,seventeen Jun 2010,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_06_2010,1,4
+seventeen,6,2010,Jun-10,seventeen Jun 2010,0,male,25,0.1,0.1,0.1,0,0,0,0,0,1,0,0,FALSE,FALSE,S_06_2010,1,4
+seventeen,6,2011,Jun-11,seventeen Jun 2011,1,female,24,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_06_2011,1,4
+seventeen,6,2012,Jun-12,seventeen Jun 2012,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_06_2012,1,4
+seventeen,6,2013,Jun-13,seventeen Jun 2013,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_06_2013,1,4
+seventeen,6,2014,Jun-14,seventeen Jun 2014,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_06_2014,1,4
+seventeen,6,2014,Jun-14,seventeen Jun 2014,0.986,male,27,0.1,0.1,0.1,0,0,0,0,0.986,0.014,0,0,FALSE,FALSE,S_06_2014,1,4
+seventeen,6,2015,Jun-15,seventeen Jun 2015,0,male,23,0.1,0.1,0.1,0,0.001,0,0,0,0.885,0.113,0,FALSE,FALSE,S_06_2015,1,2
+seventeen,6,2016,Jun-16,seventeen Jun 2016,1,male,23,0.1,0.1,0.1,0,0,0,0,1,0,0,0,TRUE,FALSE,S_06_2016,1,2
+seventeen,6,2017,Jun-17,seventeen Jun 2017,1,male,24,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,S_06_2017,1,2
+seventeen,6,2018,Jun-18,seventeen Jun 2018,0.002,male,25,0.1,0.1,0.1,0,0.522,0,0,0.002,0.473,0.001,0.001,TRUE,FALSE,S_06_2018,1,2
+seventeen,7,2010,Jul-10,seventeen Jul 2010,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_07_2010,1,4
+seventeen,7,2010,Jul-10,seventeen Jul 2010,0,male,25,0.1,0.1,0.1,0,0,0,0,0,1,0,0,FALSE,FALSE,S_07_2010,1,4
+seventeen,7,2011,Jul-11,seventeen Jul 2011,1,female,24,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_07_2011,1,4
+seventeen,7,2012,Jul-12,seventeen Jul 2012,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_07_2012,1,4
+seventeen,7,2013,Jul-13,seventeen Jul 2013,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_07_2013,1,4
+seventeen,7,2014,Jul-14,seventeen Jul 2014,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_07_2014,1,4
+seventeen,7,2014,Jul-14,seventeen Jul 2014,0.986,male,27,0.1,0.1,0.1,0,0,0,0,0.986,0.014,0,0,FALSE,FALSE,S_07_2014,1,4
+seventeen,7,2015,Jul-15,seventeen Jul 2015,0,male,23,0.1,0.1,0.1,0,0.001,0,0,0,0.885,0.113,0,FALSE,FALSE,S_07_2015,1,2
+seventeen,7,2016,Jul-16,seventeen Jul 2016,1,male,23,0.1,0.1,0.1,0,0,0,0,1,0,0,0,TRUE,FALSE,S_07_2016,1,2
+seventeen,7,2017,Jul-17,seventeen Jul 2017,1,female,26,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_07_2017,1,4
+seventeen,8,2010,Aug-10,seventeen Aug 2010,1,female,23,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_08_2010,4,2
+seventeen,8,2011,Aug-11,seventeen Aug 2011,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_08_2011,1,2
+seventeen,8,2012,Aug-12,seventeen Aug 2012,1,female,25,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_08_2012,1,4
+seventeen,8,2013,Aug-13,seventeen Aug 2013,0.996,female,24,0,0,0,0,0.001,0,0,0.996,0,0,0.003,TRUE,TRUE,S_08_2013,2,4
+seventeen,8,2014,Aug-14,seventeen Aug 2014,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_08_2014,1,4
+seventeen,8,2015,Aug-15,seventeen Aug 2015,0.735,female,27,0,0,0,0,0,0,0.001,0.735,0.001,0,0.263,TRUE,TRUE,S_08_2015,2,4
+seventeen,8,2016,Aug-16,seventeen Aug 2016,0,female,24,0,0,0,0,0.002,0,0,0,0.998,0,0,TRUE,TRUE,S_08_2016,1,4
+seventeen,8,2017,Aug-17,seventeen Aug 2017,1,female,26,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_08_2017,1,4
+seventeen,9,2010,Sep-10,seventeen Sep 2010,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_09_2010,1,3
+seventeen,9,2011,Sep-11,seventeen Sep 2011,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_09_2011,1,4
+seventeen,9,2012,Sep-12,seventeen Sep 2012,1,female,26,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_09_2012,NA,NA
+seventeen,9,2012,Sep-12,seventeen Sep 2012,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_09_2012,NA,NA
+seventeen,9,2013,Sep-13,seventeen Sep 2013,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_09_2013,1,4
+seventeen,9,2014,Sep-14,seventeen Sep 2014,1,female,23,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_09_2014,1,4
+seventeen,9,2015,Sep-15,seventeen Sep 2015,0.001,female,24,0,0,0,0,0.001,0,0,0.001,0.973,0.025,0,TRUE,TRUE,S_09_2015,1,4
+seventeen,9,2016,Sep-16,seventeen Sep 2016,1,female,26,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_09_2016,1,4
+seventeen,10,2010,Oct-10,seventeen Oct 2010,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_10_2010,NA,NA
+seventeen,10,2010,Oct-10,seventeen Oct 2010,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_10_2010,NA,NA
+seventeen,10,2011,Oct-11,seventeen Oct 2011,1,male,23,0.1,0.1,0.1,0,0,0,0,1,0,0,0,TRUE,FALSE,S_10_2011,1,2
+seventeen,10,2011,Oct-11,seventeen Oct 2011,1,female,37,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_10_2011,1,2
+seventeen,10,2012,Oct-12,seventeen Oct 2012,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_10_2012,1,4
+seventeen,10,2013,Oct-13,seventeen Oct 2013,1,female,24,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_10_2013,1,4
+seventeen,10,2014,Oct-14,seventeen Oct 2014,1,female,24,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_10_2014,1,4
+seventeen,10,2015,Oct-15,seventeen Oct 2015,1,male,28,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,S_10_2015,NA,NA
+seventeen,10,2015,Oct-15,seventeen Oct 2015,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_10_2015,NA,NA
+seventeen,10,2016,Oct-16,seventeen Oct 2016,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_10_2016,4,4
+seventeen,10,2017,Oct-17,seventeen Oct 2017,1,female,9,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_10_2017,NA,NA
+seventeen,11,2010,Nov-10,seventeen Nov 2010,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_11_2010,1,4
+seventeen,11,2011,Nov-11,seventeen Nov 2011,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_11_2011,1,4
+seventeen,11,2012,Nov-12,seventeen Nov 2012,1,male,21,0.1,0.1,0.1,0,0,0,0,1,0,0,0,TRUE,TRUE,S_11_2012,NA,NA
+seventeen,11,2012,Nov-12,seventeen Nov 2012,1,male,22,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,TRUE,S_11_2012,NA,NA
+seventeen,11,2012,Nov-12,seventeen Nov 2012,1,male,24,0.1,0.1,0.1,0,0,0,0,1,0,0,0,TRUE,FALSE,S_11_2012,NA,NA
+seventeen,11,2012,Nov-12,seventeen Nov 2012,1,male,26,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,S_11_2012,NA,NA
+seventeen,11,2012,Nov-12,seventeen Nov 2012,1,male,21,0.1,0.1,0.1,0,0,0,0,1,0,0,0,TRUE,TRUE,S_11_2012,NA,NA
+seventeen,11,2013,Nov-13,seventeen Nov 2013,0.993,female,24,0,0,0,0,0,0,0,0.993,0.007,0,0,TRUE,TRUE,S_11_2013,1,4
+seventeen,11,2014,Nov-14,seventeen Nov 2014,0,male,24,0.1,0.1,0.1,0,0,0,0,0,1,0,0,TRUE,FALSE,S_11_2014,NA,NA
+seventeen,11,2014,Nov-14,seventeen Nov 2014,0.003,male,28,0.4,0.4,0.1,0.001,0.147,0.002,0.004,0.003,0.768,0.034,0.041,TRUE,FALSE,S_11_2014,NA,NA
+seventeen,11,2014,Nov-14,seventeen Nov 2014,0,male,22,0.1,0.1,0.1,0,0.002,0,0,0,0.982,0.014,0.001,TRUE,TRUE,S_11_2014,NA,NA
+seventeen,11,2014,Nov-14,seventeen Nov 2014,1,male,22,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,S_11_2014,NA,NA
+seventeen,11,2014,Nov-14,seventeen Nov 2014,0,male,24,0.1,0.1,0.1,0,0,0,0,0,1,0,0,TRUE,FALSE,S_11_2014,NA,NA
+seventeen,11,2014,Nov-14,seventeen Nov 2014,0.003,male,28,0.4,0.4,0.1,0.001,0.147,0.002,0.004,0.003,0.768,0.034,0.041,TRUE,FALSE,S_11_2014,NA,NA
+seventeen,11,2014,Nov-14,seventeen Nov 2014,0,male,22,0.1,0.1,0.1,0,0.002,0,0,0,0.982,0.014,0.001,TRUE,TRUE,S_11_2014,NA,NA
+seventeen,11,2014,Nov-14,seventeen Nov 2014,1,male,22,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,S_11_2014,NA,NA
+seventeen,11,2015,Nov-15,seventeen Nov 2015,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_11_2015,1,4
+seventeen,11,2016,Nov-16,seventeen Nov 2016,0.997,female,27,0,0,0,0,0,0,0,0.997,0.003,0,0,TRUE,TRUE,S_11_2016,1,4
+seventeen,11,2017,Nov-17,seventeen Nov 2017,1,female,9,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_11_2017,4,2
+seventeen,12,2010,Dec-10,seventeen Dec 2010,0.025,female,22,0,0,0,0,0,0,0,0.025,0.974,0,0,TRUE,TRUE,S_12_2010,1,4
+seventeen,12,2011,Dec-11,seventeen Dec 2011,1,female,34,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_12_2011,1,4
+seventeen,12,2012,Dec-12,seventeen Dec 2012,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_12_2012,1,4
+seventeen,12,2013,Dec-13,seventeen Dec 2013,0.193,male,31,0.1,0.1,0.1,0,0,0,0,0.193,0.807,0,0,FALSE,FALSE,S_12_2013,NA,NA
+seventeen,12,2013,Dec-13,seventeen Dec 2013,0.001,male,21,0.1,0.1,0.1,0,0,0,0,0.001,0.997,0.001,0,TRUE,TRUE,S_12_2013,NA,NA
+seventeen,12,2013,Dec-13,seventeen Dec 2013,0,male,21,0.1,0.1,0.1,0,0,0,0,0,1,0,0,TRUE,TRUE,S_12_2013,NA,NA
+seventeen,12,2013,Dec-13,seventeen Dec 2013,0,male,22,0.1,0.1,0.1,0.01,0.001,0,0,0,0.952,0.036,0,FALSE,FALSE,S_12_2013,NA,NA
+seventeen,12,2013,Dec-13,seventeen Dec 2013,0.006,male,22,0.1,0.1,0.1,0,0.002,0,0,0.006,0.991,0.002,0,FALSE,FALSE,S_12_2013,NA,NA
+seventeen,12,2014,Dec-14,seventeen Dec 2014,0,female,24,0,0,0,0,0,0,0,0,0.995,0.002,0.002,TRUE,TRUE,S_12_2014,1,4
+seventeen,12,2015,Dec-15,seventeen Dec 2015,0.001,female,22,0,0,0,0,0,0,0.002,0.001,0.906,0.018,0.072,TRUE,TRUE,S_12_2015,1,3
+seventeen,12,2016,Dec-16,seventeen Dec 2016,1,male,28,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,S_12_2016,NA,NA
+seventeen,12,2016,Dec-16,seventeen Dec 2016,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,S_12_2016,NA,NA
+good housekeeping,1,2010,Jan-10,good housekeeping Jan 2010,1,female,35,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_01_2010,1,4
+good housekeeping,1,2011,Jan-11,good housekeeping Jan 2011,1,female,41,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_01_2011,1,4
+good housekeeping,1,2012,Jan-12,good housekeeping Jan 2012,1,female,44,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_01_2012,1,3
+good housekeeping,1,2013,Jan-13,good housekeeping Jan 2013,1,female,27,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_01_2013,1,3
+good housekeeping,1,2014,Jan-14,good housekeeping Jan 2014,1,female,34,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_01_2014,4,4
+good housekeeping,1,2015,Jan-15,good housekeeping Jan 2015,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_01_2015,1,4
+good housekeeping,1,2017,Jan-17,good housekeeping Jan 2017,1,female,39,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_01_2017,1,4
+good housekeeping,1,2018,Jan-18,good housekeeping Jan 2018,1,female,25,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_01_2018,3,4
+good housekeeping,2,2010,Feb-10,good housekeeping Feb 2010,1,female,37,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_02_2010,NA,NA
+good housekeeping,2,2010,Feb-10,good housekeeping Feb 2010,1,male,44,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,TRUE,GH_02_2010,NA,NA
+good housekeeping,2,2011,Feb-11,good housekeeping Feb 2011,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_02_2011,1,4
+good housekeeping,2,2012,Feb-12,good housekeeping Feb 2012,1,female,23,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_02_2012,4,4
+good housekeeping,2,2013,Feb-13,good housekeeping Feb 2013,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_02_2013,1,4
+good housekeeping,2,2015,Feb-15,good housekeeping Feb 2015,1,female,39,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_02_2015,2,4
+good housekeeping,2,2016,Feb-16,good housekeeping Feb 2016,1,female,48,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_02_2016,1,3
+good housekeeping,2,2016,Feb-16,good housekeeping Feb 2016,0.007,female,28,0,0,0,0,0,0,0,0.007,0.993,0,0,TRUE,TRUE,GH_02_2016,1,3
+good housekeeping,2,2017,Feb-17,good housekeeping Feb 2017,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_02_2017,1,2
+good housekeeping,2,2018,Feb-18,good housekeeping Feb 2018,0.54,male,45,0.1,0.1,0.1,0,0.145,0,0,0.54,0.314,0.001,0,FALSE,FALSE,GH_02_2018,1,2
+good housekeeping,3,2010,Mar-10,good housekeeping Mar 2010,1,female,50,0,0,0,0,0,0,0,1,0,0,0,TRUE,FALSE,GH_03_2010,1,3
+good housekeeping,3,2011,Mar-11,good housekeeping Mar 2011,1,female,30,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_03_2011,1,3
+good housekeeping,3,2012,Mar-12,good housekeeping Mar 2012,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_03_2012,1,3
+good housekeeping,3,2013,Mar-13,good housekeeping Mar 2013,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_03_2013,1,3
+good housekeeping,4,2010,Apr-10,good housekeeping Apr 2010,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_04_2010,2,4
+good housekeeping,4,2011,Apr-11,good housekeeping Apr 2011,1,male,47,0.1,0.1,0.1,0,0,0,0,1,0,0,0,TRUE,FALSE,GH_04_2011,1,2
+good housekeeping,4,2012,Apr-12,good housekeeping Apr 2012,0.009,female,31,0,0,0,0,0,0,0,0.009,0.991,0,0,TRUE,TRUE,GH_04_2012,4,2
+good housekeeping,4,2013,Apr-13,good housekeeping Apr 2013,0.999,male,49,0.1,0.1,0.1,0,0.001,0,0,0.999,0,0,0,FALSE,FALSE,GH_04_2013,1,2
+good housekeeping,5,2010,May-10,good housekeeping May 2010,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_05_2010,4,2
+good housekeeping,5,2011,May-11,good housekeeping May 2011,1,female,36,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_05_2011,1,3
+good housekeeping,5,2012,May-12,good housekeeping May 2012,1,female,38,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_05_2012,1,3
+good housekeeping,5,2014,May-14,good housekeeping May 2014,1,female,42,0,0,0,0,0,0,0,1,0,0,0,TRUE,FALSE,GH_05_2014,4,2
+good housekeeping,5,2015,May-15,good housekeeping May 2015,1,female,38,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_05_2015,1,3
+good housekeeping,5,2016,May-16,good housekeeping May 2016,1,female,28,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_05_2016,1,4
+good housekeeping,5,2017,May-17,good housekeeping May 2017,1,female,38,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_05_2017,1,4
+good housekeeping,6,2011,Jun-11,good housekeeping Jun 2011,1,male,48,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,GH_06_2011,1,2
+good housekeeping,6,2012,Jun-12,good housekeeping Jun 2012,1,female,45,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_06_2012,4,2
+good housekeeping,6,2013,Jun-13,good housekeeping Jun 2013,1,female,48,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_06_2013,1,3
+good housekeeping,6,2017,Jun-17,good housekeeping Jun 2017,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_06_2017,1,4
+good housekeeping,7,2010,Jul-10,good housekeeping Jul 2010,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_07_2010,1,3
+good housekeeping,7,2011,Jul-11,good housekeeping Jul 2011,1,female,35,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_07_2011,1,4
+good housekeeping,7,2012,Jul-12,good housekeeping Jul 2012,1,male,47,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,GH_07_2012,1,1
+good housekeeping,7,2013,Jul-13,good housekeeping Jul 2013,1,female,35,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_07_2013,NA,NA
+good housekeeping,7,2013,Jul-13,good housekeeping Jul 2013,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_07_2013,NA,NA
+good housekeeping,7,2013,Jul-13,good housekeeping Jul 2013,1,female,34,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_07_2013,NA,NA
+good housekeeping,7,2013,Jul-13,good housekeeping Jul 2013,1,female,33,0,0,0,0,0,0,0,1,0,0,0,FALSE,TRUE,GH_07_2013,NA,NA
+good housekeeping,8,2010,Aug-10,good housekeeping Aug 2010,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_08_2010,NA,NA
+good housekeeping,8,2010,Aug-10,good housekeeping Aug 2010,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_08_2010,NA,NA
+good housekeeping,8,2011,Aug-11,good housekeeping Aug 2011,1,female,36,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_08_2011,1,4
+good housekeeping,8,2012,Aug-12,good housekeeping Aug 2012,1,female,38,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_08_2012,1,3
+good housekeeping,8,2013,Aug-13,good housekeeping Aug 2013,0.999,male,45,0.1,0.1,0.1,0,0.001,0,0,0.999,0,0,0,TRUE,TRUE,GH_08_2013,1,2
+good housekeeping,8,2014,Aug-14,good housekeeping Aug 2014,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_08_2014,1,4
+good housekeeping,8,2015,Aug-15,good housekeeping Aug 2015,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_08_2015,2,4
+good housekeeping,9,2010,Sep-10,good housekeeping Sep 2010,1,female,36,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_09_2010,1,3
+good housekeeping,9,2011,Sep-11,good housekeeping Sep 2011,1,female,43,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_09_2011,1,3
+good housekeeping,9,2012,Sep-12,good housekeeping Sep 2012,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_09_2012,1,3
+good housekeeping,9,2013,Sep-13,good housekeeping Sep 2013,1,female,41,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_09_2013,1,4
+good housekeeping,9,2014,Sep-14,good housekeeping Sep 2014,1,female,29,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_09_2014,1,2
+good housekeeping,9,2015,Sep-15,good housekeeping Sep 2015,1,male,49,0.1,0.4,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,GH_09_2015,1,2
+good housekeeping,9,2016,Sep-16,good housekeeping Sep 2016,1,female,38,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_09_2016,1,3
+good housekeeping,9,2017,Sep-17,good housekeeping Sep 2017,1,female,31,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_09_2017,1,2
+good housekeeping,10,2010,Oct-10,good housekeeping Oct 2010,1,female,51,0,0,0,0,0,0,0,1,0,0,0,TRUE,FALSE,GH_10_2010,1,2
+good housekeeping,10,2011,Oct-11,good housekeeping Oct 2011,1,female,34,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_10_2011,1,2
+good housekeeping,10,2012,Oct-12,good housekeeping Oct 2012,1,female,56,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_10_2012,1,2
+good housekeeping,10,2013,Oct-13,good housekeeping Oct 2013,1,male,48,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,GH_10_2013,1,2
+good housekeeping,11,2010,Nov-10,good housekeeping Nov 2010,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_11_2010,1,3
+good housekeeping,11,2011,Nov-11,good housekeeping Nov 2011,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_11_2011,1,4
+good housekeeping,11,2012,Nov-12,good housekeeping Nov 2012,1,female,34,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_11_2012,1,4
+good housekeeping,11,2013,Nov-13,good housekeeping Nov 2013,1,female,45,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_11_2013,1,3
+good housekeeping,11,2014,Nov-14,good housekeeping Nov 2014,1,female,32,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_11_2014,3,4
+good housekeeping,11,2017,Nov-17,good housekeeping Nov 2017,0,female,29,0,0,0,0,0,0,0.002,0,0.975,0.001,0.021,TRUE,TRUE,GH_11_2017,NA,NA
+good housekeeping,11,2017,Nov-17,good housekeeping Nov 2017,0.992,female,36,0,0,0,0,0.001,0,0,0.992,0.006,0,0.001,TRUE,TRUE,GH_11_2017,NA,NA
+good housekeeping,12,2010,Dec-10,good housekeeping Dec 2010,1,female,33,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_12_2010,1,3
+good housekeeping,12,2011,Dec-11,good housekeeping Dec 2011,1,female,42,0,0,0,0,0,0,0,1,0,0,0,TRUE,TRUE,GH_12_2011,NA,NA
+good housekeeping,12,2011,Dec-11,good housekeeping Dec 2011,1,male,44,0.1,0.1,0.1,0,0,0,0,1,0,0,0,FALSE,FALSE,GH_12_2011,NA,NA
+good housekeeping,12,2012,Dec-12,good housekeeping Dec 2012,0.997,female,33,0,0,0,0,0,0,0,0.997,0,0,0.003,TRUE,TRUE,GH_12_2012,1,4
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,E_02_2015,4,0
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,EQ_12_2011,1,1
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,EQ_01_2014,1,4
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,EQ_02_2014,1,1
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,EQ_02_2017,4,1
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,EQ_10_2017,1,2
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,GH_05_2013,1,0
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,S_05_2014,1,2
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,S_05_2015,1,4
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,S_04_2016,1,3
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,S_12_2017,4,2
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,S_01_2018,1,4
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,S_02_2018,1,4
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,S_03_2018,1,2
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,S_04_2018,1,2
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,C_05_2015,1,2
